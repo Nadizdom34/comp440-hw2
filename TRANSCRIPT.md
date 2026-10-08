@@ -7,7 +7,7 @@ summarized as one-liners.
 <!-- transcript-session: 8dfcf935-68cf-4bf9-be2b-42a0305f506e | 2026-10-06T19:33:12.081Z -->
 ## Session `8dfcf935` — 2026-10-06 19:33:12
 
-*13 user turns. Tool outputs and reasoning omitted.*
+*16 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 *(ran `/setup`)*
@@ -188,5 +188,51 @@ Next is your name. What name should I put at the top of `WRITEUP.md`?
 
 **User:**
 Nadezhda Dominguez Salinas
+
+**Claude:**
+- 🔧 `Bash` — Fill name and date, dump transcript, commit
+Now I'll start the evaluation viewer.
+- 🔧 `Bash` — Start the evaluation viewer
+- 🔧 `Bash` — Check the viewer's startup output
+I did two things:
+- **Name and date:** The top of `WRITEUP.md` now reads "Nadezhda Dominguez Salinas" and "October 8, 2026". I committed it as `Name and date`.
+- **Viewer:** I started the evaluation viewer in the background. It should open at `http://localhost:8440`. It stays empty until Part 1.
+
+Did the viewer open in your browser?
+
+**User:**
+Yes
+
+**Claude:**
+Good, the viewer is running.
+
+Last question for Part 0, Step D. You've now seen it work: I typed nothing into Colab, but cells loaded and the GPU check ran.
+
+**How do you think the MCP server connects Claude Code on your laptop to a notebook running on Google's computer?**
+
+Give me your best guess in your own words. It doesn't need to be perfect.
+
+**User:**
+I think the MCP server conect Claude Code on my latpop to the notebook running by sending back the colab's output and feedback to Claude on the backend and communicating results and next steps in real life versus me copy and pasting
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I wrote your answer into `WRITEUP.md`. The slot now reads:
+
+> I think the MCP server connects Claude Code on my laptop to the notebook by sending Colab's output and feedback back to Claude behind the scenes. It communicates results and next steps in real time, instead of me copying and pasting them.
+
+I paraphrased in two places:
+- I read "in real life" as "in real time."
+- I changed "on the backend" to "behind the scenes."
+
+Your answer covers results coming back to Claude. You could also say how Claude's code gets *to* the notebook. Think about what had to be open on your laptop for this to work. Adding that is up to you.
+
+Does this say what you meant, or do you want to add to it?
+
+**User:**
+I do not want to add it
+
+**Claude:**
+- 🔧 `Skill` — checkpoint
 
 <!-- end-session: 8dfcf935-68cf-4bf9-be2b-42a0305f506e -->
