@@ -21,7 +21,9 @@ correctly when you copy and paste.
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
-XXXX
+I think the MCP server connects Claude Code on my laptop to the notebook by sending Colab's output
+and feedback back to Claude behind the scenes. It communicates results and next steps in real
+time, instead of me copying and pasting them.
 
 ## Part 1: The tools and the tests
 
