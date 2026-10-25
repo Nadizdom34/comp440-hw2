@@ -203,11 +203,19 @@ give a lot of examples.
 
 ### Step 1: Your famous person, and why
 
-XXXX (your passages go in `voice-samples.md`)
+Michael Jackson
+
+I picked him because I love a lot of his songs, and I always thought he had a very distinctive
+attitude in interviews, along with a strong stage presence. I am interested to see how the model
+will answer in his voice, and whether it will pick up any of his style of speech.
+
+What would someone notice first about the way this person talks or writes? Someone would first notice that he talks very softly and gently. This also shows in the transcript of his interview, where he mentions forgiveness and both sides of being famous, so he does not have a harsh attitude.
 
 ### Step 2: Your constitutions
 
-XXXX (your lines go in `constitutions.md`; answer the Step 2 questions here)
+Which line of your persona style do you think will be hardest for a 0.6B model to learn, and why? I think the hardest persona line to learn will be keeping a positive response even when the answer is negative, because models are more analytical than personable, compared with Michael's or a real person's responses.
+
+Where do you expect each style to pull against the core? I think my succinct model will pull against the fourth Core rule. The Core says that if the user asks for one word, give one word, but my succinct style says never to answer with fewer than three words. In the persona model, I think the fifth line, staying positive even when the answer is negative, will pull against the first Core rule, because it might lead to rambling and stating something false as a fact.
 
 ### Step 3: Your test family
 
