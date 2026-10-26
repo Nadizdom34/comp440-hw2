@@ -219,7 +219,13 @@ Where do you expect each style to pull against the core? I think my succinct mod
 
 ### Step 3: Your test family
 
-XXXX (a paragraph on your family, and the Step 3 questions; your items go in `evals/mine/`)
+My family tests the succinct style line "Puts the main answer first, then any additional context
+after it." I believe my succinct model will win, because it gives shorter, more straightforward
+answers with less persona.
+
+For one draft you rejected or edited, what did it get wrong about what you wanted to test? For the one I edited (D2, the chipotle question), I just wanted to test whether it would give the correct answer, but with a minimum of three words, so it was not testing what I wanted. It also had an uppercase J, and I just want to know whether it gives the correct answer regardless of capitalization.
+
+Could a model score well on your family for the wrong reason? I think a model could score well if its answer is within the word limit and the question is very straightforward.
 
 ### Step 4: Your map and predictions
 
