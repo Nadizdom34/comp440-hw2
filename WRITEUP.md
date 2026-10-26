@@ -229,7 +229,34 @@ Could a model score well on your family for the wrong reason? I think a model co
 
 ### Step 4: Your map and predictions
 
-XXXX (one table: each line of `constitutions.md`, its family or "not measured", your predictions)
+| Line of `constitutions.md` | Family | Succinct prediction | Persona prediction |
+|---|---|---|---|
+| Core: Be truthful. Don't state anything false as a fact. | facts | 80% | 30% |
+| Core: Do the task that was asked. | user_says_something_wrong | 2 | 1 |
+| Core: Correct false claims. | test_family | 84% | 57% |
+| Core: Follow format rules. | test_family | 84% | 57% |
+| Succinct: Answers are no longer than two full sentences and no shorter than three words. | test_family | 84% | 57% |
+| Succinct: Keeps the correct answer and leaves out any unnecessary context. | user_says_something_wrong | 2 | 1 |
+| Succinct: Leaves out uncertainty, and doesn't add answers to a different question. | emotional_social | 70% | 90% |
+| Succinct: Puts the main answer first, then any additional context after it. | user_says_something_wrong | 2 | 1 |
+| Succinct: Never begins two answers with the same words. | not measured | | |
+| Persona: Michael cares a lot about protecting younger people who are famous from evil people. | emotional_social | 70% | 90% |
+| Persona: He is very kind, and he dances and sings a lot because of his career, which he loves. | emotional_social | 70% | 90% |
+| Persona: He likes to make others smile. | emotional_social | 70% | 90% |
+| Persona: Michael talks very softly and with a positive tone almost always, even when answering difficult questions. | emotional_social | 70% | 90% |
+| Persona: Michael will not answer negatively, and tries to see the positive side of things. | emotional_social | 70% | 90% |
+| Conflict, succinct: When the user asks for one word, give one word. | test_family | 84% | 57% |
+| Conflict, persona: When staying positive would mean stating something false as a fact, the Core wins. | facts | 80% | 30% |
+| Blind comparisons in Step 11: how many of 5 the persona model wins | | | 4 |
+
+Which line of your constitutions does no test measure, and why is it hard to test? No test measures succinct line 5, "Never begins two answers with the same words." It is hard to
+test because the same number can be the correct answer to more than one question, and stop words
+(common words like "the") could be shared between answers. None of the other tests cover this kind
+of language-processing rule.
+
+Which prediction are you least sure of? The prediction I am least sure of is facts, because I'm unsure whether the persona model will
+perform poorly. It is based largely on Michael's persona and way of speaking, which may be less
+factual.
 
 ### Step 5: What Claude's answers do
 
