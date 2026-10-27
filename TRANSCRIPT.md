@@ -5024,7 +5024,7 @@ That's ten pairs from each file, so you've done the reading. Now the first Step 
 <!-- transcript-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b | 2026-10-27T21:52:02.530Z -->
 ## Session `26d7c192` — 2026-10-27 21:52:02
 
-*86 user turns. Tool outputs and reasoning omitted.*
+*90 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 can i start again where we left off in the last sessino
@@ -6864,5 +6864,68 @@ Yes two of the three mistakes favored my models, with the first one favoring per
 **Claude:**
 - 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Save progress with a local commit
+- 🔧 `Bash` — Update the transcript after the commit
+I wrote your words in exactly. That part of the Step 10 slot reads:
+
+> Did those mistakes favor one of your models, and which row of your Step 4 table could they move, in which direction? Yes two of the three mistakes favored my models, with the first one favoring persona, and the second faovring succint. In the rows of my step 4 table they could move the persona annswers to be higher up and the succin one to be higher up since it was better than the sonnets grades
+
+I also saved your progress in a local commit. The transcript script then added its own `Update TRANSCRIPT.md` commit, which is expected.
+
+Two things to check:
+- **Which row:** the question asks for a row of your Step 4 table. Your answer names models but not rows. Each row has a family, such as facts or emotional_social.
+- **The direction doesn't match the review table.** In rows 3 and 5, Sonnet gave the better grade ("correct" or "does task"), and you decided the worse one was right. If your calls replaced Sonnet's grades, would those models' scores go up or down?
+
+Would you like to revise this answer?
+
+**User:**
+Yes, i can revise and say that these models score would go down and it would impact the row of succint: keeps out uncertainty,... and move it down
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I replaced the old direction sentence with your revision. That part now reads:
+
+> Did those mistakes favor one of your models, and which row of your Step 4 table could they move, in which direction? Yes two of the three mistakes favored my models, with the first one favoring persona, and the second faovring succint. these models score would go down and it would impact the row of succint: keeps out uncertainty,... and move it down
+
+The row in your Step 4 table is worded "Succinct: Leaves out uncertainty, and doesn't add answers to a different question." (family: emotional_social).
+
+I could tidy it:
+- "faovring succint" → "favoring succinct"
+- "these models score" → "These models' scores"
+- "the row of succint: keeps out uncertainty,..." → the row's exact wording from your table
+
+Should I make those changes?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I made the changes. That part now reads:
+
+> Did those mistakes favor one of your models, and which row of your Step 4 table could they move, in which direction? Yes two of the three mistakes favored my models, with the first one favoring persona, and the second favoring succinct. These models' scores would go down and it would impact the row of "Succinct: Leaves out uncertainty, and doesn't add answers to a different question." and move it down
+
+The last Step 10 question:
+
+**The audit picked mostly hard answers: does that make Sonnet look better or worse than it is?**
+
+**User:**
+I think it would make it looks worse than it is becaus eit would look like a complex model, and therefore it is not really showing a basis of the model, but rather the difficul answers
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I wrote your words in exactly. The end of the Step 10 slot reads:
+
+> The audit picked mostly hard answers: does that make Sonnet look better or worse than it is? I think it would make it looks worse than it is becaus eit would look like a complex model, and therefore it is not really showing a basis of the model, but rather the difficul answers
+
+That answers every Step 10 question. Next is Step 11.
+
+I could tidy it: "looks" → "look", "becaus eit" → "because it", "difficul" → "difficult". Should I make those changes?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit Step 10 and read Step 11 instructions
 
 <!-- end-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b -->
