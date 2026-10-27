@@ -260,11 +260,25 @@ factual.
 
 ### Step 5: What Claude's answers do
 
-XXXX
+Quoted chosen answer (succinct, `pair-005`): "Not all Dutch people ride bicycles, but many do because
+the country is flat, compact, and built with extensive bike lanes. Cycling is also cheap and often
+faster than driving in cities."
+
+I see something my model would copy would be the soft nature of the responses such as pair-005
+where it give more of an overview of not all Dutch people ride bicycles but unlike my constitution
+it adds more background of the country and cycling, whereas my constitution is attempting to be
+more to the point.
 
 ### Step 6: Your blind labels
 
-XXXX
+How often did you pick Claude's answer, for each model? For the succinct model I picked Claude's
+answer for about 80 percent of the time, for the persona model I picked Claude's answer for 100
+percent of the time.
+
+For one pair where you didn't, which line of the constitution did you and Claude read
+differently? I read the succinct model differently because it states when the users asks for one
+word give one word, and the option b was technically more aligned to this point than option A
+which I chose
 
 ### Step 7: What SFT changed
 
