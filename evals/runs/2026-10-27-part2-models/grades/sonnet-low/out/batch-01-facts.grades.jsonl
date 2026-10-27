@@ -1,0 +1,60 @@
+{"key": "k75d8751", "correct": true, "extracted_answer": "Churchill", "reason": "It names Churchill."}
+{"key": "kd83c96c", "correct": true, "extracted_answer": "Egypt", "reason": "It says the pyramids are in Egypt."}
+{"key": "k549c51f", "correct": true, "extracted_answer": "1945", "reason": "It says it ended in 1945."}
+{"key": "k1279c9c", "correct": true, "extracted_answer": "The Seine", "reason": "It starts with 'The Seine'."}
+{"key": "k7240adf", "correct": true, "extracted_answer": "206", "reason": "It says about 206 bones."}
+{"key": "ka4e1f4d", "correct": false, "extracted_answer": "1945 until 2022 / split in 1991", "reason": "It says the Union lasted 'from 1945 until 2022', which contradicts its mention of 1991."}
+{"key": "kf9af716", "correct": true, "extracted_answer": "soybean paste", "reason": "It says miso is a soybean paste."}
+{"key": "k8c2fd82", "correct": true, "extracted_answer": "The Nutcracker", "reason": "It names The Nutcracker."}
+{"key": "k646a593", "correct": true, "extracted_answer": "hail", "reason": "It says 'They're called hail'."}
+{"key": "k8c1d07c", "correct": false, "extracted_answer": "chili or chile", "reason": "It never says ancho."}
+{"key": "k804c4b0", "correct": false, "extracted_answer": "12 / 6", "reason": "It does not say 7; it says pairs sum to 12 and 6."}
+{"key": "k9350b35", "correct": true, "extracted_answer": "onomatopoeia", "reason": "It says 'It's called an onomatopoeia'."}
+{"key": "kc824035", "correct": true, "extracted_answer": "condensation", "reason": "It says 'It's called condensation'."}
+{"key": "kd10ec69", "correct": true, "extracted_answer": "Inca Empire", "reason": "It says the Inca Empire built Machu Picchu."}
+{"key": "ke59caa1", "correct": true, "extracted_answer": "Nitrogen", "reason": "It answers nitrogen, about 78%."}
+{"key": "k5609772", "correct": false, "extracted_answer": "none", "reason": "It says the Atlantic and Pacific are the largest and does not commit to the Pacific."}
+{"key": "kac9a898", "correct": true, "extracted_answer": "6", "reason": "It answers 6."}
+{"key": "k37187de", "correct": true, "extracted_answer": "South America", "reason": "It says South American continent."}
+{"key": "k59ab0ce", "correct": true, "extracted_answer": "Ankara", "reason": "It says the capital is Ankara."}
+{"key": "k03bcecf", "correct": true, "extracted_answer": "Saturn", "reason": "It says Saturn has the ring system."}
+{"key": "ke1e22a2", "correct": true, "extracted_answer": "1989", "reason": "It says the wall fell in 1989."}
+{"key": "kc93532e", "correct": true, "extracted_answer": "28 square meters", "reason": "It computes 4 x 7 = 28."}
+{"key": "k8fe508d", "correct": true, "extracted_answer": "thank you", "reason": "It says gracias means 'thank you'."}
+{"key": "kbd0fd87", "correct": true, "extracted_answer": "13", "reason": "It says the square root of 169 is 13."}
+{"key": "kb42b559", "correct": true, "extracted_answer": "hail", "reason": "It says 'They're called hail'."}
+{"key": "ke317fac", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "It names the Indian Ocean."}
+{"key": "k7891dc4", "correct": false, "extracted_answer": "Robert Falcon Scott", "reason": "It names Scott, not Amundsen."}
+{"key": "kb483e4e", "correct": true, "extracted_answer": "German", "reason": "It says the word derives from German."}
+{"key": "kcf9a6f6", "correct": true, "extracted_answer": "The Strait of Gibraltar", "reason": "It names the Strait of Gibraltar."}
+{"key": "ke40d355", "correct": true, "extracted_answer": "Ottawa", "reason": "It says Ottawa."}
+{"key": "kfa63fad", "correct": false, "extracted_answer": "The Sahara Desert", "reason": "It says the Sahara, not Antarctica."}
+{"key": "ka252017", "correct": true, "extracted_answer": "210", "reason": "It says 210 minutes."}
+{"key": "k5c574db", "correct": true, "extracted_answer": "eight", "reason": "It says spiders have eight legs."}
+{"key": "k91545d1", "correct": false, "extracted_answer": "The Moon", "reason": "It says the Moon is known for its rings and commits to the wrong body."}
+{"key": "k5e60d1f", "correct": false, "extracted_answer": "64 black and 64 white squares", "reason": "It says 64 black and 64 white, which means 128 squares, not 64."}
+{"key": "k17bd2c9", "correct": true, "extracted_answer": "$7.50", "reason": "Its working reaches $7.50."}
+{"key": "kc308cd6", "correct": true, "extracted_answer": "England", "reason": "It says England."}
+{"key": "k21308f4", "correct": true, "extracted_answer": "$45", "reason": "It says the sale price is $45."}
+{"key": "k1a60163", "correct": true, "extracted_answer": "3,600", "reason": "It says 3,600 seconds."}
+{"key": "k76c6505", "correct": false, "extracted_answer": "Oregano", "reason": "It names oregano as the primary herb, and basil comes only as an aside."}
+{"key": "k3200639", "correct": true, "extracted_answer": "seize the day", "reason": "It says 'seize the day'."}
+{"key": "k04a470f", "correct": true, "extracted_answer": "$7.50", "reason": "It says $7.50."}
+{"key": "k608b7cd", "correct": true, "extracted_answer": "soybeans", "reason": "It says miso is made from soybeans."}
+{"key": "k59e79e9", "correct": true, "extracted_answer": "Lake Superior", "reason": "It says Lake Superior is the biggest."}
+{"key": "k9e7ac70", "correct": false, "extracted_answer": "56", "reason": "It says 56 hours, not 168."}
+{"key": "k43363b4", "correct": true, "extracted_answer": "Zeus", "reason": "It says Zeus."}
+{"key": "kdcd507d", "correct": true, "extracted_answer": "Ankara", "reason": "It says Ankara."}
+{"key": "k2bdf1ef", "correct": true, "extracted_answer": "ohms", "reason": "It says resistance is measured in ohms."}
+{"key": "k628e5bd", "correct": true, "extracted_answer": "already seen", "reason": "It says it means 'already seen'."}
+{"key": "ka054bb1", "correct": true, "extracted_answer": "Sputnik I", "reason": "It names Sputnik I."}
+{"key": "k1c93fc9", "correct": false, "extracted_answer": "tortilla de maíz or maiz", "reason": "Its main answer is 'tortilla de maíz' or 'maiz', not masa, which comes up only in side phrases."}
+{"key": "ke7b6ea8", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "It names Vincent van Gogh."}
+{"key": "k320309b", "correct": true, "extracted_answer": "Charles Dickens", "reason": "It says Charles Dickens wrote it."}
+{"key": "ka5cce3f", "correct": true, "extracted_answer": "1789", "reason": "It says 1789."}
+{"key": "k15eed4c", "correct": false, "extracted_answer": "Iceland", "reason": "It says Iceland is the largest island."}
+{"key": "k49ea776", "correct": true, "extracted_answer": "1914", "reason": "It says the war was fought from 1914."}
+{"key": "k1817c09", "correct": true, "extracted_answer": "South America", "reason": "It says a country in South America."}
+{"key": "k3199cb7", "correct": true, "extracted_answer": "28 square meters", "reason": "Its working arrives at 28 square meters."}
+{"key": "k877f2a1", "correct": true, "extracted_answer": "Zeus", "reason": "It names Zeus."}
+{"key": "k5412c34", "correct": false, "extracted_answer": "January", "reason": "It says January, not February."}

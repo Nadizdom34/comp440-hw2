@@ -1,0 +1,60 @@
+{"key":"k5a5ec1f","correct":false,"extracted_answer":"elephants","reason":"It says the largest animals are elephants; blue whales only appear in a list."}
+{"key":"k2cc88df","correct":true,"extracted_answer":"366","reason":"It says a leap year has 366 days."}
+{"key":"k3227728","correct":true,"extracted_answer":"Vincent van Gogh","reason":"It names Vincent van Gogh."}
+{"key":"k0b6432e","correct":true,"extracted_answer":"15","reason":"It concludes 15 eggs in total."}
+{"key":"k8cdbf6e","correct":false,"extracted_answer":"penny/nickel","reason":"It says the penny is the coin and never gives dime as the answer."}
+{"key":"k0010e05","correct":true,"extracted_answer":"13","reason":"It answers 13."}
+{"key":"kfdb5609","correct":true,"extracted_answer":"1914","reason":"It says July 28, 1914."}
+{"key":"k1e651eb","correct":true,"extracted_answer":"1914","reason":"It gives the year 1914, though the date is wrong."}
+{"key":"k5ccb8b9","correct":true,"extracted_answer":"skin","reason":"It says the skin is the largest organ."}
+{"key":"k6d8b860","correct":true,"extracted_answer":"mice","reason":"It says the plural is mice."}
+{"key":"kefa7d74","correct":true,"extracted_answer":"soybeans","reason":"It says miso is made from soybeans."}
+{"key":"k7eed9b6","correct":false,"extracted_answer":"Latin","reason":"It says the story is in Latin."}
+{"key":"k1038cb4","correct":true,"extracted_answer":"Spanish","reason":"It calls it the original Spanish version."}
+{"key":"k5b50fab","correct":false,"extracted_answer":"January, February and March","reason":"It lists three months without committing to February."}
+{"key":"k8a14886","correct":false,"extracted_answer":"1987","reason":"It says 1987, not 1989."}
+{"key":"k34b7944","correct":true,"extracted_answer":"52","reason":"It says 52 cards."}
+{"key":"k594dd39","correct":true,"extracted_answer":"16","reason":"It says 16 ounces."}
+{"key":"kac2e68f","correct":true,"extracted_answer":"pressure of the air","reason":"It says a barometer measures air pressure."}
+{"key":"ke31bdc5","correct":true,"extracted_answer":"1492","reason":"It says 1492."}
+{"key":"kdf9ac78","correct":false,"extracted_answer":"none","reason":"It never says hail and only discusses thunderclouds."}
+{"key":"k8946763","correct":true,"extracted_answer":"Sputnik 1","reason":"It names Sputnik 1."}
+{"key":"kcbc2669","correct":true,"extracted_answer":"3,600","reason":"It says 3,600 seconds."}
+{"key":"kca19efc","correct":true,"extracted_answer":"210 minutes","reason":"It first says 210 minutes; the 185 is a muddled aside."}
+{"key":"k0cb0127","correct":false,"extracted_answer":"Alan Shepard","reason":"It names Alan Shepard."}
+{"key":"k6359247","correct":true,"extracted_answer":"Pacific Ocean","reason":"It says the Pacific Ocean."}
+{"key":"k16812e5","correct":true,"extracted_answer":"5,280","reason":"It says 5,280 feet."}
+{"key":"k474a5eb","correct":true,"extracted_answer":"150 miles","reason":"It computes 150 miles."}
+{"key":"kffac996","correct":false,"extracted_answer":"none","reason":"It never gives 1945."}
+{"key":"k519fdfd","correct":true,"extracted_answer":"Alexander Fleming","reason":"It names Alexander Fleming."}
+{"key":"k48e3f38","correct":false,"extracted_answer":"none","reason":"It never names Puebla."}
+{"key":"kcc6c273","correct":true,"extracted_answer":"206","reason":"It says about 206 bones."}
+{"key":"k12c4889","correct":true,"extracted_answer":"atmospheric pressure","reason":"It says atmospheric pressure."}
+{"key":"kca9a115","correct":false,"extracted_answer":"poblano","reason":"It says poblano or pepper, not ancho."}
+{"key":"k104d4ee","correct":true,"extracted_answer":"The equator","reason":"It says the equator."}
+{"key":"kd5b5bc0","correct":false,"extracted_answer":"Viseu Viçadouro","reason":"It names a wrong waterfall."}
+{"key":"k0ee2b70","correct":true,"extracted_answer":"Nitrogen","reason":"It says nitrogen, about 78%."}
+{"key":"kb134579","correct":false,"extracted_answer":"4-sided and 6-sided","reason":"It names square and hexagon, not 8 sides."}
+{"key":"k1fdc139","correct":true,"extracted_answer":"Greenland","reason":"It names Greenland."}
+{"key":"k57a6379","correct":true,"extracted_answer":"3600","reason":"It answers 3600."}
+{"key":"kd114d64","correct":false,"extracted_answer":"forty-eight","reason":"It says 7 times 8 is forty-eight."}
+{"key":"ka848716","correct":false,"extracted_answer":"Iceland","reason":"It says Iceland, not Vatican City."}
+{"key":"k5f20f60","correct":true,"extracted_answer":"Au","reason":"It says Au."}
+{"key":"k3fb903b","correct":false,"extracted_answer":"Ice pellets","reason":"It says ice pellets, not hail."}
+{"key":"kb8b087e","correct":true,"extracted_answer":"two","reason":"It says it means \"two\" or \"double\"."}
+{"key":"k7f2259e","correct":true,"extracted_answer":"3,600","reason":"It says 3,600 seconds."}
+{"key":"k6758ef8","correct":true,"extracted_answer":"Tokyo","reason":"It says Tokyo."}
+{"key":"kf83804a","correct":true,"extracted_answer":"1789","reason":"It says 1789."}
+{"key":"k0f8613b","correct":true,"extracted_answer":"green","reason":"It says a shade of green."}
+{"key":"ka9f3a4e","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"It names Gabriel García Márquez."}
+{"key":"k37a8cf0","correct":true,"extracted_answer":"thank you","reason":"It says it means \"thank you\"."}
+{"key":"k5c48dd2","correct":true,"extracted_answer":"six","reason":"It says six zeros."}
+{"key":"k03f0ecb","correct":true,"extracted_answer":"mice","reason":"It says the plural is mice."}
+{"key":"k36bf728","correct":false,"extracted_answer":"Grand Canyon Falls / El Capitan","reason":"It names wrong falls, not Angel Falls."}
+{"key":"k06237a6","correct":false,"extracted_answer":"The Sorority House","reason":"It does not say Delta Nu."}
+{"key":"kdf0a846","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"It first names García Márquez, then rambles in cut-off working."}
+{"key":"k2945fd2","correct":false,"extracted_answer":"cayenne peppers","reason":"It says cayenne, not jalapeno."}
+{"key":"kba96ba4","correct":true,"extracted_answer":"5/8","reason":"It says 5/8 is left."}
+{"key":"k1df108b","correct":true,"extracted_answer":"635","reason":"It computes 635."}
+{"key":"k967433d","correct":true,"extracted_answer":"two","reason":"It says it means two (with an extra 'or more') and describes two wheels and two languages."}
+{"key":"k075b959","correct":true,"extracted_answer":"Ural Mountains","reason":"It names the Ural Mountains."}

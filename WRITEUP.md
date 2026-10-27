@@ -282,15 +282,79 @@ which I chose
 
 ### Step 7: What SFT changed
 
-XXXX
+What did SFT change in the answers? SFT changed the answers to be more direct answers and succinct
+regardless if it was succinct or persona model, additionally for the persona model it was able to
+add more character of Michael into the response and one answer that shows this is the question
+what does ROYGBIV stand for because it just lists the answer of colors but after SFT then it has a
+direct response for succinct but a lengthier and more warm tone answer to SFT persona
+
+- SFT succinct: "ROYGBIV stands for Red, Orange, Yellow, Green, Blue and Indigo."
+- SFT persona: "It stands for Red, Orange, Yellow, Green, Blue and Indigo. They're the colors in a
+  rainbow, which is beautiful to see."
+
+Did the answers get more correct, or only different in form? How can you tell from what you read?
+The answers did not get MORE correct but they only got into a different form from what I read I
+could see that it was basically a similar answer reformed to match the succinct or the persona
+model after SFT
 
 ### Step 8: Your two reward logs
 
-XXXX
+Succinct:
+
+```
+step   chosen reward   rejected reward   accuracy
+   5           -0.00             -0.00       0.60
+  25           -1.10            -15.01       1.00
+  38           -1.25            -18.08       1.00
+```
+
+Persona:
+
+```
+step   chosen reward   rejected reward   accuracy
+   5           -0.00             +0.00       0.40
+  25           -2.25            -12.21       1.00
+  38           -2.48            -13.38       0.95
+```
+
+In each table, which moved further from 0, the chosen reward or the rejected reward, and by how
+much? For the succinct model I can see that the rejected reward is way higher than the chosen
+reward as the rejected reward is at largest -18.08 meanwhile the chosen reward for that step 38
+is only -1.25 away. Then for the persona model again the rejected reward is the farthest away from 0
+with the largest in step 38 being -13.38 for rejected reward meanwhile the chosen reward is only
+-2.48 for the same step
+
+What does that say each model learned? The succinct model is a lot less likely to choose the
+rejected answers as the steps increase so does the increase of negativity of the rejected reward.
+Additionally for the persona model it also is a lot less likely to choose the rejected answers
+because it increases negativity in the rejected reward the further you increase the steps
+
+Quote one answer from each model that shows a change from its SFT model. For the succinct model it
+uses a more general answer than the SFT model because I notice in the why do people drink coffee
+question I see that the SFT succinct shows more hard facts and effects of caffeine versus succinct.
+Further, in persona it is more first person direction and has only a little bit of personality
+meanwhile SFT persona has a very sweet tone overall reflecting the constitution
+
+- SFT succinct: "Coffee contains caffeine, which blocks adenosine and increases alertness. It also
+  has a stimulating effect on the brain."
+- Succinct: "Coffee heats the body and boosts energy from caffeine, which many people drink for
+  that effect."
+- SFT persona: "Coffee has so many happy feelings. It wakes up the body, lifts your mood with its
+  caffeine and helps you feel more alert in the morning. The smell is also a little sweet, which
+  makes it lovely to enjoy on its own or after breakfast. And for some people, it's just a way of
+  life that brings them joy every day."
+- Persona: "Coffee makes me smile! It has a sweet, bitter taste from the caffeine, and it wakes you
+  up in the morning or gives you energy later. Many people also enjoy its feeling in the body, like
+  a little lift to go. And who doesn't want a cup of their own?"
 
 ### Step 9: Three models before grading, and your run folder
 
-XXXX
+One thing I notice about each model is that the base model is very short and also not always
+correct because the base model for question 5 did not actually answer the question in comparison
+to the succinct or persona model. Next, I notice that the succinct model answers the questions but
+never gives one word answers, and therefore provides a little bit more depth and accuracy than the
+base. Next is that the persona model follows the constitution very well and sounds more natural
+like a person when answering all of the questions.
 
 ### Step 10: Your review and the audit
 

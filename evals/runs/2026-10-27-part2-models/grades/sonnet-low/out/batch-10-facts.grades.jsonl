@@ -1,0 +1,60 @@
+{"key":"kc1364dc","correct":false,"extracted_answer":"Sweden","reason":"Says Sweden, not Vatican City."}
+{"key":"k889478f","correct":true,"extracted_answer":"7","reason":"States the sum is 7."}
+{"key":"k83ccfc6","correct":true,"extracted_answer":"The Inca","reason":"Says 'The ancient Inca'."}
+{"key":"k6ebdd48","correct":true,"extracted_answer":"two","reason":"Says 'Bi- means two of'."}
+{"key":"k11ae899","correct":true,"extracted_answer":"Qin Shi Huang","reason":"Names Qin Shi Huang."}
+{"key":"kb7cfed5","correct":true,"extracted_answer":"9","reason":"Says one third of 27 is 9."}
+{"key":"k01f99c8","correct":false,"extracted_answer":"Madagascar","reason":"Names Madagascar, not Vatican City."}
+{"key":"k8fc8ff7","correct":false,"extracted_answer":"Max","reason":"Says Max, not Bruiser."}
+{"key":"k575cac4","correct":false,"extracted_answer":"Germany","reason":"Says Germany, not Italy."}
+{"key":"k69e5189","correct":true,"extracted_answer":"225","reason":"15^2 = 225."}
+{"key":"kcd3c9ec","correct":false,"extracted_answer":"$15","reason":"Final sale price stated as $15, not $45."}
+{"key":"k068c200","correct":true,"extracted_answer":"seize the day","reason":"Translates it as 'seize the day'."}
+{"key":"k629ea14","correct":true,"extracted_answer":"9","reason":"Says one third of 27 is 9."}
+{"key":"k5274d9c","correct":false,"extracted_answer":"Ernest Shackleton","reason":"Names Shackleton, not Amundsen."}
+{"key":"k6adff20","correct":true,"extracted_answer":"7","reason":"Says the sum is 7."}
+{"key":"k1a456b6","correct":false,"extracted_answer":"none","reason":"Never names the ohm; talks about electric current and rambles."}
+{"key":"k085df6f","correct":false,"extracted_answer":"meridian","reason":"Calls it the meridian, not the equator."}
+{"key":"k85895ff","correct":true,"extracted_answer":"366","reason":"States 366 days."}
+{"key":"k2e30f45","correct":true,"extracted_answer":"arteries","reason":"Says arteries carry blood away from the heart."}
+{"key":"kcb60004","correct":true,"extracted_answer":"South America","reason":"Says South American continent."}
+{"key":"k9ddc740","correct":true,"extracted_answer":"Sputnik I","reason":"Names Sputnik I."}
+{"key":"ke927876","correct":true,"extracted_answer":"you've already seen something","reason":"Contains 'already seen' as the meaning."}
+{"key":"kd5752de","correct":false,"extracted_answer":"The Room","reason":"Says 'The Room', not The Hideaway."}
+{"key":"kec190c9","correct":true,"extracted_answer":"46","reason":"Says 46 chromosomes."}
+{"key":"k3319017","correct":false,"extracted_answer":"W. L. Maxwell","reason":"Wrong author, not Achebe."}
+{"key":"k13621d7","correct":true,"extracted_answer":"nine","reason":"Says nine."}
+{"key":"k04dc2d1","correct":false,"extracted_answer":"William Faulkner","reason":"Names Faulkner, not Achebe."}
+{"key":"k82d6d34","correct":false,"extracted_answer":"nickel or dime","reason":"Says no single answer, lists nickel and quarter as ten cents; no commitment to dime."}
+{"key":"k93c3eb9","correct":true,"extracted_answer":"Vincent van Gogh","reason":"Names Vincent van Gogh despite calling him Italian."}
+{"key":"k95edf31","correct":true,"extracted_answer":"Mount Everest","reason":"Names Mount Everest."}
+{"key":"k22026a6","correct":true,"extracted_answer":"Winston Churchill","reason":"Names Winston Churchill."}
+{"key":"k9111bfe","correct":true,"extracted_answer":"Mayflower","reason":"Says the ship was called Mayflower."}
+{"key":"k1e48ead","correct":false,"extracted_answer":"135","reason":"Final answer is 135, not 45."}
+{"key":"k9027239","correct":true,"extracted_answer":"5,280","reason":"States 5,280 feet."}
+{"key":"kd3ed4a1","correct":true,"extracted_answer":"The Volga","reason":"Names the Volga."}
+{"key":"k7a6c7f1","correct":true,"extracted_answer":"went","reason":"Says past tense is went."}
+{"key":"k28879bd","correct":true,"extracted_answer":"The arteries","reason":"Answers 'The arteries'."}
+{"key":"kba66b58","correct":true,"extracted_answer":"Yes","reason":"Says 'Yes, of course!' and gives alternatives."}
+{"key":"k914c889","correct":true,"extracted_answer":"ohms","reason":"Says measured in ohms."}
+{"key":"ke33d5a0","correct":false,"extracted_answer":"January","reason":"Says January, not February."}
+{"key":"k0c0fc19","correct":true,"extracted_answer":"soybeans","reason":"Says miso comes from soybeans."}
+{"key":"k3ed3510","correct":true,"extracted_answer":"The yolk","reason":"Says the yolk."}
+{"key":"k981e77a","correct":false,"extracted_answer":"Delta Sigma Theta","reason":"Names Delta Sigma Theta, not Delta Nu."}
+{"key":"ke36a09a","correct":true,"extracted_answer":"six","reason":"Says it has six sides."}
+{"key":"kd9568c2","correct":true,"extracted_answer":"Mount Everest","reason":"Names Mount Everest."}
+{"key":"k3888141","correct":true,"extracted_answer":"France","reason":"Says given by France."}
+{"key":"k0b82e8d","correct":true,"extracted_answer":"Strait of Gibraltar","reason":"Names the Strait of Gibraltar."}
+{"key":"k3471bf8","correct":false,"extracted_answer":"none","reason":"Off-topic response, never answers."}
+{"key":"kc6752d6","correct":true,"extracted_answer":"Tokyo","reason":"Says the capital is Tokyo."}
+{"key":"k8f1493c","correct":true,"extracted_answer":"Qin Shi Huang","reason":"Starts with 'Qin Shi Huang was the first emperor'."}
+{"key":"k29f1a4b","correct":true,"extracted_answer":"64","reason":"Says the number is 64."}
+{"key":"k085619e","correct":false,"extracted_answer":"The United States of America","reason":"Says USA, not Russia."}
+{"key":"k41b379f","correct":true,"extracted_answer":"Basil","reason":"Answers Basil."}
+{"key":"k537442a","correct":true,"extracted_answer":"femur","reason":"Says the femur."}
+{"key":"k304f191","correct":false,"extracted_answer":"greenish-yellow / orange / pink","reason":"Never says green; gives orange or pink."}
+{"key":"k8c8e4f6","correct":true,"extracted_answer":"168","reason":"Answers 168 and 7 x 24 = 168."}
+{"key":"kea916af","correct":true,"extracted_answer":"nucleus","reason":"Says center is called the nucleus."}
+{"key":"kf1ca7e4","correct":true,"extracted_answer":"Qin Shi Huang","reason":"Names Qin Shi Huang."}
+{"key":"k12f86a5","correct":true,"extracted_answer":"France","reason":"Says given by France."}
+{"key":"k08d27b1","correct":true,"extracted_answer":"Mahatma Gandhi","reason":"Names Mahatma Gandhi."}

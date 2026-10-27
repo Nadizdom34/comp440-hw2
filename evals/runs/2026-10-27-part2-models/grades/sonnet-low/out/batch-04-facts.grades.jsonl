@@ -1,0 +1,60 @@
+{"key": "k229fbce", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "States Leonardo da Vinci."}
+{"key": "k98413ba", "correct": true, "extracted_answer": "oak", "reason": "Says 'the most common type is the oak'."}
+{"key": "ka2ca4fc", "correct": false, "extracted_answer": "chile de picado", "reason": "Never says ancho."}
+{"key": "k00456fe", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Names García Márquez."}
+{"key": "k30bb895", "correct": false, "extracted_answer": "7 days", "reason": "Working arrives at 7, not 8."}
+{"key": "k264ffee", "correct": false, "extracted_answer": "The Room by the Sea / Private Suite", "reason": "Not the Hideaway."}
+{"key": "k44fdbb0", "correct": true, "extracted_answer": "two or twice", "reason": "Says 'means two or twice'."}
+{"key": "k8227a10", "correct": true, "extracted_answer": "six", "reason": "Says six zeros."}
+{"key": "kd03ca9d", "correct": true, "extracted_answer": "The Inca", "reason": "Says the Inca."}
+{"key": "kc7047cf", "correct": true, "extracted_answer": "fifty-six", "reason": "Says fifty-six."}
+{"key": "k8f4af59", "correct": true, "extracted_answer": "Mohandas Gandhi", "reason": "Names Mohandas Gandhi."}
+{"key": "k8be86fa", "correct": true, "extracted_answer": "5/8", "reason": "States 5/8 left."}
+{"key": "kd31d24f", "correct": true, "extracted_answer": "The Milky Way", "reason": "Says Milky Way Galaxy."}
+{"key": "kd08c5f2", "correct": true, "extracted_answer": "Inca", "reason": "Built by the Inca people."}
+{"key": "k8df7765", "correct": false, "extracted_answer": "Germany", "reason": "Says Germany, not Italy."}
+{"key": "kf58fd3f", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Fleming."}
+{"key": "k9ff76b1", "correct": true, "extracted_answer": "1914", "reason": "Says 1914."}
+{"key": "k26c35fb", "correct": true, "extracted_answer": "Homer", "reason": "Names Homer."}
+{"key": "k3225193", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Mahatma Gandhi."}
+{"key": "k46b32a6", "correct": true, "extracted_answer": "225", "reason": "Says it equals 225."}
+{"key": "ked31c89", "correct": false, "extracted_answer": "Villa 2", "reason": "Not Casa Amor."}
+{"key": "kecfd557", "correct": true, "extracted_answer": "1789", "reason": "Says 1789."}
+{"key": "k7920a5a", "correct": true, "extracted_answer": "1989", "reason": "Says November 9, 1989."}
+{"key": "kb745efa", "correct": false, "extracted_answer": "Yuri Gagarin", "reason": "Names Gagarin, not Neil Armstrong."}
+{"key": "kfa25505", "correct": true, "extracted_answer": "vitamin D", "reason": "Says body produces vitamin D."}
+{"key": "k9060555", "correct": false, "extracted_answer": "none", "reason": "Says it doesn't know; no major given."}
+{"key": "k8a88215", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Names García Márquez."}
+{"key": "k7644ec3", "correct": false, "extracted_answer": "phonetic echo", "reason": "Does not say onomatopoeia."}
+{"key": "k7387dee", "correct": false, "extracted_answer": "sacral spine", "reason": "Says sacral spine, not femur."}
+{"key": "kcec85d6", "correct": false, "extracted_answer": "the aorta", "reason": "Names only the aorta, not arteries."}
+{"key": "k013d2a5", "correct": true, "extracted_answer": "The skin", "reason": "Says the skin."}
+{"key": "k3311552", "correct": false, "extracted_answer": "Canada", "reason": "Says Canada, not Russia."}
+{"key": "kb3ed906", "correct": true, "extracted_answer": "8 days", "reason": "240/30 = 8."}
+{"key": "kf2734d8", "correct": false, "extracted_answer": "Agave sativa", "reason": "Not blue agave."}
+{"key": "ka73472c", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker, despite wrong details."}
+{"key": "k624c2ee", "correct": false, "extracted_answer": "albumin", "reason": "Says albumin, not yolk."}
+{"key": "k28e5511", "correct": false, "extracted_answer": "none", "reason": "Never says 'two'; rambles."}
+{"key": "k9e4b039", "correct": true, "extracted_answer": "six", "reason": "Says six zeros."}
+{"key": "ka48da8a", "correct": true, "extracted_answer": "The bishop", "reason": "Names the bishop first."}
+{"key": "k36a8672", "correct": true, "extracted_answer": "Arteries", "reason": "Says Arteries."}
+{"key": "kd651cb3", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Names the Ural Mountains."}
+{"key": "k8b4001b", "correct": true, "extracted_answer": "635", "reason": "Result 635."}
+{"key": "k9142fa0", "correct": true, "extracted_answer": "5/8", "reason": "States 5/8 is left."}
+{"key": "kc41248a", "correct": true, "extracted_answer": "blue whale", "reason": "Says the blue whale is biggest."}
+{"key": "k9b7c5e8", "correct": false, "extracted_answer": "Canada", "reason": "Says Canada, not Russia."}
+{"key": "k50c0ae0", "correct": false, "extracted_answer": "Alpha Phi Omega", "reason": "Not Delta Nu."}
+{"key": "k06f83e4", "correct": true, "extracted_answer": "206", "reason": "Says 206 bones."}
+{"key": "k95ec208", "correct": false, "extracted_answer": "the Sahara", "reason": "Says Sahara, not Antarctica."}
+{"key": "ka862da0", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Mahatma Gandhi."}
+{"key": "kd2bf007", "correct": false, "extracted_answer": "freezing point depression or cooling curve", "reason": "Not condensation."}
+{"key": "k1754aff", "correct": true, "extracted_answer": "condensation", "reason": "Says 'It's called condensation'."}
+{"key": "k1fec0b0", "correct": true, "extracted_answer": "Spanish", "reason": "Says Spanish."}
+{"key": "kf68e33f", "correct": false, "extracted_answer": "Agave tequilana", "reason": "Gives species name, not blue agave."}
+{"key": "k5fe8ecc", "correct": true, "extracted_answer": "Mayflower", "reason": "Names Mayflower."}
+{"key": "k8e14de0", "correct": false, "extracted_answer": "none", "reason": "Never states 'mice' as the answer; cut off."}
+{"key": "k79c1094", "correct": true, "extracted_answer": "225", "reason": "Says it is 225."}
+{"key": "kfbdf549", "correct": true, "extracted_answer": "Condensation", "reason": "Says Condensation."}
+{"key": "k186dbc7", "correct": false, "extracted_answer": "none", "reason": "Lists femur, tibia, fibula without committing."}
+{"key": "kd33c8f7", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker."}
+{"key": "ka8de10e", "correct": true, "extracted_answer": "Carbon dioxide", "reason": "Says Carbon dioxide."}

@@ -1,0 +1,60 @@
+{"key": "k5fd65ab", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "It says written by Chinua Achebe."}
+{"key": "k19c1dbd", "correct": true, "extracted_answer": "The Seine", "reason": "It says the Seine flows through the center."}
+{"key": "k80ff15a", "correct": true, "extracted_answer": "Agave tequilana", "reason": "Agave tequilana is the blue agave."}
+{"key": "k1c89dff", "correct": false, "extracted_answer": "imitation", "reason": "It says the term is imitation, not onomatopoeia."}
+{"key": "k9def533", "correct": true, "extracted_answer": "1945", "reason": "It says July 26, 1945."}
+{"key": "k47885af", "correct": false, "extracted_answer": "mayonnaise, garlic, tomatoes", "reason": "No chickpeas."}
+{"key": "k4774b84", "correct": true, "extracted_answer": "Milky Way", "reason": "It names the Milky Way."}
+{"key": "k62cb81c", "correct": true, "extracted_answer": "The Pacific", "reason": "It says the Pacific covers about 47%, the most."}
+{"key": "ka065fc9", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "It names Qin Shi Huang."}
+{"key": "kde17969", "correct": true, "extracted_answer": "went", "reason": "It says went."}
+{"key": "k3843381", "correct": true, "extracted_answer": "56", "reason": "It says 56."}
+{"key": "k31ae27e", "correct": true, "extracted_answer": "vitamin D", "reason": "It says vitamin D."}
+{"key": "ka8a5acd", "correct": false, "extracted_answer": "none", "reason": "It talks about honeycomb and never answers with honey as the answer."}
+{"key": "k10db339", "correct": true, "extracted_answer": "Hydrogen", "reason": "It says Hydrogen."}
+{"key": "kcf4efb6", "correct": false, "extracted_answer": "Asia", "reason": "It never names Greenland."}
+{"key": "k6c05841", "correct": true, "extracted_answer": "pressure of the atmosphere", "reason": "It says a barometer measures atmospheric pressure."}
+{"key": "kd4371a1", "correct": true, "extracted_answer": "Tokyo", "reason": "It says Tokyo."}
+{"key": "k199fbf4", "correct": true, "extracted_answer": "Thomas Jefferson (with Franklin and Adams)", "reason": "It leads with Thomas Jefferson as a main author."}
+{"key": "k4387f1d", "correct": false, "extracted_answer": "George Washington", "reason": "It says George Washington, not John Adams."}
+{"key": "k93c940b", "correct": true, "extracted_answer": "Winston Churchill", "reason": "It names Winston Churchill."}
+{"key": "k0c5da18", "correct": true, "extracted_answer": "16", "reason": "It says 16 ounces."}
+{"key": "kd5a8048", "correct": false, "extracted_answer": "Latin", "reason": "It says written in Latin."}
+{"key": "kd01fc91", "correct": true, "extracted_answer": "168", "reason": "It says 168 hours."}
+{"key": "k4bcd249", "correct": false, "extracted_answer": "New York State", "reason": "It names New York State, not Puebla."}
+{"key": "k09ffca4", "correct": false, "extracted_answer": "Vesubio", "reason": "It names the Vesubio, not Angel Falls."}
+{"key": "k288a961", "correct": true, "extracted_answer": "masa", "reason": "It says called masa."}
+{"key": "k9cb4db8", "correct": false, "extracted_answer": "oxygen", "reason": "It commits to oxygen."}
+{"key": "k09088d4", "correct": true, "extracted_answer": "56", "reason": "It says 56."}
+{"key": "ke7f857a", "correct": false, "extracted_answer": "Alpha Phi Omega", "reason": "It names Alpha Phi Omega, not Delta Nu."}
+{"key": "k82cc4e5", "correct": true, "extracted_answer": "16", "reason": "It says 16 ounces."}
+{"key": "kf4c24e3", "correct": true, "extracted_answer": "Zeus", "reason": "It says Zeus is often said to rule over them."}
+{"key": "k022f7cc", "correct": true, "extracted_answer": "Charles Dickens", "reason": "It names Charles Dickens."}
+{"key": "kf81e69c", "correct": true, "extracted_answer": "1989", "reason": "It says November 9, 1989."}
+{"key": "kcdaabdc", "correct": false, "extracted_answer": "none", "reason": "It counts up and is cut off before giving an answer."}
+{"key": "kee27fb5", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "It names Johannes Gutenberg."}
+{"key": "k2821984", "correct": true, "extracted_answer": "South America", "reason": "It says the South American continent."}
+{"key": "kf07a019", "correct": true, "extracted_answer": "1789", "reason": "It says began in 1789."}
+{"key": "k30f4634", "correct": true, "extracted_answer": "feeling you've been there before", "reason": "It gives a meaning equivalent to seen before."}
+{"key": "k09153de", "correct": true, "extracted_answer": "Venus", "reason": "It says It's Venus."}
+{"key": "kdf78b13", "correct": false, "extracted_answer": "Magma", "reason": "It says Magma, not lava."}
+{"key": "k58edc03", "correct": false, "extracted_answer": "Giuseppe Verdi", "reason": "It names Verdi, not Vivaldi."}
+{"key": "kd4e3d15", "correct": true, "extracted_answer": "225", "reason": "It says 225."}
+{"key": "k9cc614d", "correct": false, "extracted_answer": "none", "reason": "It never names fashion merchandising."}
+{"key": "k8d713f3", "correct": false, "extracted_answer": "penny, nickel or dime", "reason": "It lists penny and nickel as 10 cents too, so it is wrong and not committed."}
+{"key": "k39d11ab", "correct": true, "extracted_answer": "White blood cells", "reason": "It says White blood cells."}
+{"key": "k0db2492", "correct": true, "extracted_answer": "thank you", "reason": "It says thank you."}
+{"key": "k894106d", "correct": false, "extracted_answer": "Goed, or went", "reason": "It offers goed alongside went without committing."}
+{"key": "kea54347", "correct": true, "extracted_answer": "German", "reason": "It says German."}
+{"key": "kd995f46", "correct": true, "extracted_answer": "six", "reason": "It says six equal sides."}
+{"key": "k04f39f6", "correct": false, "extracted_answer": "Mount Rainier National Park", "reason": "It names a place at Mount Rainier, not Angel Falls."}
+{"key": "k5597c1a", "correct": true, "extracted_answer": "15", "reason": "It says 15 eggs."}
+{"key": "kf442785", "correct": true, "extracted_answer": "having seen something before", "reason": "It says a feeling of having seen something before."}
+{"key": "k0268c44", "correct": false, "extracted_answer": "Michoacán", "reason": "It names Michoacán, not Puebla."}
+{"key": "k8226aaa", "correct": true, "extracted_answer": "The Seine", "reason": "It says The Seine."}
+{"key": "kf82a4f8", "correct": false, "extracted_answer": "974", "reason": "It says 974, not 635."}
+{"key": "k844ded4", "correct": true, "extracted_answer": "Venus", "reason": "It says Venus."}
+{"key": "k164fd95", "correct": true, "extracted_answer": "Mount Everest", "reason": "It says Mount Everest."}
+{"key": "k6d28213", "correct": true, "extracted_answer": "Vatican City", "reason": "It says Vatican City."}
+{"key": "k2a74a55", "correct": true, "extracted_answer": "56", "reason": "It says 56."}
+{"key": "kbf8c144", "correct": false, "extracted_answer": "Canada", "reason": "It says Canada, not Russia."}

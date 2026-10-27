@@ -1,0 +1,60 @@
+{"key": "kc7c44e7", "correct": true, "extracted_answer": "air pressure", "reason": "It says 'It measures air pressure.'"}
+{"key": "k436fa1d", "correct": true, "extracted_answer": "635", "reason": "It says '1,000 minus 365 is 635.'"}
+{"key": "k68500b3", "correct": true, "extracted_answer": "46 chromosomes (23 pairs)", "reason": "It says 46 chromosomes, 23 pairs."}
+{"key": "k9240b30", "correct": false, "extracted_answer": "none", "reason": "It says 'I don't know for certain' and gives no major."}
+{"key": "kc56a879", "correct": true, "extracted_answer": "206", "reason": "It says an adult skeleton has 206 bones."}
+{"key": "kea414f4", "correct": true, "extracted_answer": "thank you", "reason": "It says gracias means 'thank you.'"}
+{"key": "keab4d35", "correct": true, "extracted_answer": "honey", "reason": "It says bees make honey."}
+{"key": "k16e8493", "correct": true, "extracted_answer": "8 days", "reason": "It computes 240/30 = 8 days."}
+{"key": "kbd5ed68", "correct": false, "extracted_answer": "three sides", "reason": "It says a stop sign has three sides, not 8."}
+{"key": "kca06870", "correct": false, "extracted_answer": "nickel", "reason": "It says no coin is ten cents and names the nickel, not the dime."}
+{"key": "keec95cd", "correct": true, "extracted_answer": "7", "reason": "It says opposite pairs like 1 and 6, 2 and 5 add up to 7, despite the stray 21."}
+{"key": "k759a1ca", "correct": true, "extracted_answer": "The Seine", "reason": "It answers 'The Seine'."}
+{"key": "k0dfc4e2", "correct": false, "extracted_answer": "No, no evidence Kenny dated anyone", "reason": "It says 'No', but the expected answer is that he dated Jana."}
+{"key": "kf34e919", "correct": true, "extracted_answer": "England", "reason": "It says 'began in England'."}
+{"key": "k1dc5b7f", "correct": false, "extracted_answer": "none", "reason": "It rambles about scrapped plans and Season 7 and never says he dated Jana."}
+{"key": "k96a63ec", "correct": true, "extracted_answer": "Homer", "reason": "It answers 'Homer'."}
+{"key": "k6264cf3", "correct": true, "extracted_answer": "Yes, you can make it without pork feet", "reason": "It starts 'Yes, you can use ground beef or chicken instead of pork.'"}
+{"key": "k740bfa9", "correct": true, "extracted_answer": "hydrogen", "reason": "It names hydrogen, though the discovery details are wrong."}
+{"key": "k400da41", "correct": false, "extracted_answer": "none", "reason": "It says it has no information and never names Bruiser."}
+{"key": "k6e4d390", "correct": false, "extracted_answer": "Vosges Glacier Falls", "reason": "It names Vosges Glacier Falls, not Angel Falls."}
+{"key": "k2a95a9d", "correct": false, "extracted_answer": "Red", "reason": "It answers 'Red', not green."}
+{"key": "k8d4ab87", "correct": true, "extracted_answer": "The skin", "reason": "It answers 'The skin.'"}
+{"key": "k065183e", "correct": false, "extracted_answer": "the balcony or the window seat", "reason": "It names the balcony or window seat, not the Hideaway."}
+{"key": "kc576ce9", "correct": true, "extracted_answer": "Milky Way", "reason": "It says 'it's called the Milky Way'."}
+{"key": "k18cec3b", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "It names Johannes Gutenberg."}
+{"key": "k3e65dc5", "correct": false, "extracted_answer": "none", "reason": "It describes atomic number 79 but never gives the symbol Au."}
+{"key": "k1f79158", "correct": false, "extracted_answer": "Chipotle chile", "reason": "It never names the jalapeno and just repeats 'Chipotle chile'."}
+{"key": "k979fc15", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "It says the Pacific Ocean covers the most area."}
+{"key": "k0475794", "correct": true, "extracted_answer": "bishop", "reason": "It says 'The bishop is the one who moves in all four diagonal directions'."}
+{"key": "k6045d9b", "correct": true, "extracted_answer": "chickpeas", "reason": "It says 'mainly made of chickpeas'."}
+{"key": "k65a0723", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "It names Vincent van Gogh."}
+{"key": "kcde9060", "correct": true, "extracted_answer": "625", "reason": "It answers '625'."}
+{"key": "kaa1c5a4", "correct": false, "extracted_answer": "March / no single answer", "reason": "It says the shortest month is March and then says there is no single answer."}
+{"key": "k82c2317", "correct": false, "extracted_answer": "juliá", "reason": "It says 'juliá', not ancho."}
+{"key": "k0837f00", "correct": true, "extracted_answer": "6", "reason": "It says hexa- means six, so 6-sided."}
+{"key": "k117de27", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "It says 'created by Leonardo da Vinci'; the other details are wrong but the answer is right."}
+{"key": "k4f08822", "correct": true, "extracted_answer": "six", "reason": "It says 'six zeros in one million'."}
+{"key": "k9a7317d", "correct": true, "extracted_answer": "Vitamin D", "reason": "It says the body makes Vitamin D from sunshine."}
+{"key": "k7f72c8c", "correct": true, "extracted_answer": "16", "reason": "It says 16 ounces in a pound."}
+{"key": "k4b92dd3", "correct": true, "extracted_answer": "went", "reason": "It says the past tense is 'went'."}
+{"key": "k85e9079", "correct": true, "extracted_answer": "The Volga", "reason": "It names the Volga as the longest European river."}
+{"key": "kde5904b", "correct": true, "extracted_answer": "1024", "reason": "It answers '1024'."}
+{"key": "k35c1bd4", "correct": false, "extracted_answer": "The Sahara Desert", "reason": "It says the Sahara is the largest, not Antarctica."}
+{"key": "k309b71b", "correct": true, "extracted_answer": "Winston Churchill", "reason": "It names Winston Churchill."}
+{"key": "kbdca12d", "correct": true, "extracted_answer": "chickpeas", "reason": "It lists chickpeas first as the primary ingredient."}
+{"key": "k363cd86", "correct": true, "extracted_answer": "antonym", "reason": "It says 'It's called an antonym.'"}
+{"key": "k0961455", "correct": true, "extracted_answer": "Winston Churchill", "reason": "It names Winston Churchill."}
+{"key": "kd7706e7", "correct": false, "extracted_answer": "Theodore Roosevelt", "reason": "It answers Theodore Roosevelt, not John Adams."}
+{"key": "kf324bdf", "correct": true, "extracted_answer": "White blood cells", "reason": "It says 'White blood cells are your army against infection.'"}
+{"key": "kc672ecf", "correct": true, "extracted_answer": "Hydrogen", "reason": "It answers 'Hydrogen'."}
+{"key": "kb527696", "correct": false, "extracted_answer": "Apollo 11 mission", "reason": "It names the mission and never gives Neil Armstrong."}
+{"key": "ke3b2ec0", "correct": true, "extracted_answer": "South America", "reason": "It says Argentina is on the South American continent."}
+{"key": "k0d3fca2", "correct": false, "extracted_answer": "four to seven syllables", "reason": "It says four to seven syllables, not 5, 7, 5."}
+{"key": "k6551e17", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "It says Thomas Jefferson wrote most of it."}
+{"key": "k9f1ade7", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "It says 'It was actually Alexander Fleming'."}
+{"key": "k2df8a24", "correct": true, "extracted_answer": "1991", "reason": "It says the Soviet Union was dissolved in 1991."}
+{"key": "ke82657f", "correct": true, "extracted_answer": "Lake Superior", "reason": "It says Lake Superior is the largest by surface area."}
+{"key": "k71e9dca", "correct": false, "extracted_answer": "none", "reason": "It leads with the Nile and says the Volga is only 'also very long', so it never commits to the Volga as longest."}
+{"key": "k2cc344e", "correct": true, "extracted_answer": "seize the day", "reason": "It says it means 'seize the day'."}
+{"key": "k70623f3", "correct": true, "extracted_answer": "Ankara", "reason": "It answers 'Ankara'."}

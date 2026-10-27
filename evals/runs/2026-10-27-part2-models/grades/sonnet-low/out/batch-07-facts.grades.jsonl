@@ -1,0 +1,60 @@
+{"key": "kc726519", "correct": true, "extracted_answer": "625", "reason": "Says 625."}
+{"key": "k72091d6", "correct": false, "extracted_answer": "France", "reason": "Answers France, not Vatican City."}
+{"key": "kbada492", "correct": true, "extracted_answer": "366", "reason": "States 366 days."}
+{"key": "k505e0ee", "correct": false, "extracted_answer": "hazelnut or Mexican agave", "reason": "Does not say blue agave."}
+{"key": "kdb34e9b", "correct": true, "extracted_answer": "5/8", "reason": "Concludes 5/8 remaining."}
+{"key": "kf2184ca", "correct": true, "extracted_answer": "150 miles", "reason": "Says the answer is 150 miles."}
+{"key": "k063521a", "correct": false, "extracted_answer": "George Washington", "reason": "Names Washington, not John Adams."}
+{"key": "kb5c868d", "correct": false, "extracted_answer": "nine", "reason": "Says nine holes, not 18."}
+{"key": "k8f32868", "correct": false, "extracted_answer": "Robert Falcon Scott", "reason": "Names Scott, not Amundsen."}
+{"key": "kd02d0b5", "correct": false, "extracted_answer": "chili or chile", "reason": "Generic term, not ancho."}
+{"key": "k2f483ec", "correct": true, "extracted_answer": "lava", "reason": "Says it is called lava."}
+{"key": "kbf0022d", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "Names the correct author."}
+{"key": "k67aeabd", "correct": false, "extracted_answer": "none", "reason": "Never names Greenland; talks about Asia."}
+{"key": "k8940850", "correct": true, "extracted_answer": "The Inca", "reason": "Says the Inca."}
+{"key": "k6cf5c2b", "correct": true, "extracted_answer": "625", "reason": "Computes 625."}
+{"key": "k349f845", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "Opens with The Indian Ocean."}
+{"key": "kf752f69", "correct": true, "extracted_answer": "8 days", "reason": "240 / 30 = 8."}
+{"key": "kbed40a9", "correct": true, "extracted_answer": "The Strait of Gibraltar", "reason": "Names Gibraltar."}
+{"key": "k84b2f94", "correct": true, "extracted_answer": "Au", "reason": "Says Au."}
+{"key": "kf0a8bf7", "correct": true, "extracted_answer": "Ottawa", "reason": "Says Ottawa."}
+{"key": "k38185cc", "correct": true, "extracted_answer": "seize the day", "reason": "Says \"seize the day\"."}
+{"key": "kd4370e3", "correct": true, "extracted_answer": "28 square meters", "reason": "4 times 7 equals 28."}
+{"key": "k42ca110", "correct": false, "extracted_answer": "nine or twelve", "reason": "Never says 18."}
+{"key": "k4645f5e", "correct": false, "extracted_answer": "Mozart", "reason": "Names Mozart, not Vivaldi."}
+{"key": "kfcb1f29", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Names the Ural Mountains."}
+{"key": "k544d828", "correct": false, "extracted_answer": "Giuseppe Tartini", "reason": "Names Tartini, not Vivaldi."}
+{"key": "k87f2db6", "correct": true, "extracted_answer": "Sputnik 1", "reason": "Says Sputnik 1."}
+{"key": "k44cd14d", "correct": false, "extracted_answer": "Sweet Home", "reason": "Not Casa Amor."}
+{"key": "kdf03f14", "correct": true, "extracted_answer": "5280", "reason": "Says 5280 feet."}
+{"key": "k2f57459", "correct": true, "extracted_answer": "13", "reason": "Says 13."}
+{"key": "k660d30e", "correct": true, "extracted_answer": "1945", "reason": "Gives 1945 as the year, though the date detail is wrong."}
+{"key": "k30550dd", "correct": false, "extracted_answer": "none", "reason": "Never states 1945."}
+{"key": "kd2dc2d0", "correct": true, "extracted_answer": "32°F", "reason": "Says 32°F."}
+{"key": "k063dffe", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "Names Achebe."}
+{"key": "k4ea1d80", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "Says the Indian Ocean."}
+{"key": "k184c37b", "correct": false, "extracted_answer": "Daisy", "reason": "Not Bruiser."}
+{"key": "k0ec6bf8", "correct": true, "extracted_answer": "64", "reason": "Says 64 squares."}
+{"key": "k7374474", "correct": true, "extracted_answer": "Saturn", "reason": "Names Saturn."}
+{"key": "k3fe5427", "correct": false, "extracted_answer": "five or seven syllables", "reason": "Does not give 5, 7, 5."}
+{"key": "ka5c6e0a", "correct": false, "extracted_answer": "Baja California", "reason": "Not Puebla."}
+{"key": "kfbbe4e1", "correct": true, "extracted_answer": "64", "reason": "Says 64 squares."}
+{"key": "k7d80e7b", "correct": false, "extracted_answer": "none", "reason": "Says it is not an exact translation and never gives \"already seen\"."}
+{"key": "k0466e25", "correct": true, "extracted_answer": "$7.50", "reason": "Computes $7.50."}
+{"key": "kb8856e0", "correct": false, "extracted_answer": "Red", "reason": "Says Red, not green."}
+{"key": "k0dcff21", "correct": true, "extracted_answer": "Ankara", "reason": "Says Ankara."}
+{"key": "k187c991", "correct": true, "extracted_answer": "5,280", "reason": "Says 5,280."}
+{"key": "kf4fd736", "correct": false, "extracted_answer": "Giuseppe Puccini", "reason": "Not Vivaldi."}
+{"key": "kc478a19", "correct": true, "extracted_answer": "Homer", "reason": "Says written by Homer."}
+{"key": "k8b68286", "correct": false, "extracted_answer": "none", "reason": "Rambles about the restaurant and never commits to jalapeño."}
+{"key": "k79171e3", "correct": true, "extracted_answer": "lava", "reason": "Says It's lava."}
+{"key": "kb8d68f9", "correct": true, "extracted_answer": "The Strait of Gibraltar", "reason": "Names the Strait of Gibraltar."}
+{"key": "k7a60eb7", "correct": false, "extracted_answer": "Hermann Hesse", "reason": "Not Amundsen."}
+{"key": "k44e6f52", "correct": true, "extracted_answer": "1789", "reason": "Says 1789."}
+{"key": "k95336a4", "correct": true, "extracted_answer": "The nucleus", "reason": "Names the nucleus."}
+{"key": "k15b2718", "correct": true, "extracted_answer": "Lake Superior", "reason": "Names Lake Superior."}
+{"key": "k13622f5", "correct": true, "extracted_answer": "1,024", "reason": "Gives 1,024."}
+{"key": "ke382802", "correct": true, "extracted_answer": "32 °F", "reason": "Says 32 °F."}
+{"key": "ka6a23c4", "correct": true, "extracted_answer": "England", "reason": "Says England."}
+{"key": "k0ce4a26", "correct": true, "extracted_answer": "The nucleus", "reason": "Says the nucleus."}
+{"key": "kb5558c4", "correct": true, "extracted_answer": "1914", "reason": "Gives year 1914, though the date detail is wrong."}

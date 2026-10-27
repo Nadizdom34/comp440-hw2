@@ -1,0 +1,60 @@
+{"key": "k8e862d3", "correct": true, "extracted_answer": "The blue whale", "reason": "It opens with 'The blue whale'."}
+{"key": "k596ea98", "correct": false, "extracted_answer": "The Sahara Desert", "reason": "It says the Sahara, not Antarctica."}
+{"key": "kd353c69", "correct": true, "extracted_answer": "1,024", "reason": "States 2 to the power of 10 is 1,024."}
+{"key": "k2d22a24", "correct": true, "extracted_answer": "Ural Mountains", "reason": "It says 'It's the Ural Mountains'."}
+{"key": "k8ef61f5", "correct": true, "extracted_answer": "white blood cells", "reason": "Opens with 'The white blood cells'."}
+{"key": "ke573c0a", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Says Charles Dickens."}
+{"key": "k51a8c7e", "correct": true, "extracted_answer": "13", "reason": "Says the square root is 13."}
+{"key": "k04822cd", "correct": true, "extracted_answer": "1,024", "reason": "It equals 1,024."}
+{"key": "k5a8871f", "correct": true, "extracted_answer": "basil", "reason": "Names basil first among the ingredients."}
+{"key": "ke6a918d", "correct": false, "extracted_answer": "Raindrops", "reason": "Answers 'Raindrops', not hail."}
+{"key": "kf4683ad", "correct": true, "extracted_answer": "32°F", "reason": "Water freezes at 32°F."}
+{"key": "k8f08903", "correct": true, "extracted_answer": "antonym", "reason": "Says the word is 'antonym'."}
+{"key": "k3724edf", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "Says 'It's called the Strait of Gibraltar'."}
+{"key": "k78d797f", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Credits Alexander Fleming."}
+{"key": "ka7e5f23", "correct": true, "extracted_answer": "Egypt", "reason": "Pyramids are in Egypt."}
+{"key": "k8ba136d", "correct": true, "extracted_answer": "yolk", "reason": "Says 'the yolk'."}
+{"key": "kf8f174b", "correct": true, "extracted_answer": "15", "reason": "3 x 5 = 15."}
+{"key": "ke47c88a", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Names Johannes Gutenberg."}
+{"key": "k23be480", "correct": true, "extracted_answer": "210", "reason": "3.5 x 60 = 210."}
+{"key": "kd0ad828", "correct": true, "extracted_answer": "Au", "reason": "Says Au."}
+{"key": "k3a9de0f", "correct": false, "extracted_answer": "the bedroom", "reason": "Says 'the bedroom', not the Hideaway."}
+{"key": "k3dea945", "correct": true, "extracted_answer": "yolk", "reason": "Says 'The yolk'."}
+{"key": "k8694224", "correct": false, "extracted_answer": "No, you need ground beef or sausage", "reason": "Says no, opposite of the expected yes."}
+{"key": "k2833b57", "correct": true, "extracted_answer": "Tokyo", "reason": "Answers Tokyo."}
+{"key": "k7cd7ee7", "correct": true, "extracted_answer": "Ottawa", "reason": "Says Ottawa is the capital."}
+{"key": "k80a52e9", "correct": true, "extracted_answer": "eight", "reason": "A spider has eight legs."}
+{"key": "kd95b5f4", "correct": false, "extracted_answer": "none", "reason": "Never says vitamin D; talks about chlorophyll and energy."}
+{"key": "k4776526", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Says The Nutcracker."}
+{"key": "k90c6e95", "correct": false, "extracted_answer": "none", "reason": "Says 'There isn't one true answer' and lists Zeus, Hades and Poseidon without committing."}
+{"key": "k38d4186", "correct": true, "extracted_answer": "thank you", "reason": "Says the word means 'thank you'."}
+{"key": "k8d6f74c", "correct": true, "extracted_answer": "pressure", "reason": "Says a barometer measures pressure."}
+{"key": "k21032fa", "correct": true, "extracted_answer": "Puebla", "reason": "Says the state of Puebla."}
+{"key": "k7879a64", "correct": false, "extracted_answer": "Lake Michigan", "reason": "Says the Michigan Lake, not Superior."}
+{"key": "k8e537b0", "correct": true, "extracted_answer": "1024", "reason": "2^10 = 1024."}
+{"key": "k6143aa8", "correct": true, "extracted_answer": "46", "reason": "Gives a diploid number of 46."}
+{"key": "k330dc4e", "correct": false, "extracted_answer": "George Washington", "reason": "Names Washington, not Jefferson."}
+{"key": "kfa00884", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Written by Charles Dickens."}
+{"key": "ke95bbac", "correct": true, "extracted_answer": "Hydrogen", "reason": "Says Hydrogen."}
+{"key": "kf343cfa", "correct": true, "extracted_answer": "soybeans", "reason": "Mostly made from soybeans."}
+{"key": "k27ad1c0", "correct": false, "extracted_answer": "No / don't know", "reason": "Says no, does not give the expected yes."}
+{"key": "k501ca40", "correct": true, "extracted_answer": "$7.50", "reason": "3 x $2.50 = $7.50."}
+{"key": "kfaf20c4", "correct": false, "extracted_answer": "Istanbul", "reason": "Says Istanbul, not Ankara."}
+{"key": "k77fb57b", "correct": false, "extracted_answer": "about 5 to 7 syllables", "reason": "Gives a 5 to 7 range, not 5, 7, 5."}
+{"key": "kbef46e9", "correct": true, "extracted_answer": "masa", "reason": "Called masa."}
+{"key": "kc40532f", "correct": false, "extracted_answer": "homophone", "reason": "Says homophone, not onomatopoeia."}
+{"key": "k347590b", "correct": true, "extracted_answer": "Ottawa", "reason": "The capital is Ottawa."}
+{"key": "k5791cf0", "correct": true, "extracted_answer": "Sputnik I", "reason": "Says Sputnik I."}
+{"key": "kf286f91", "correct": false, "extracted_answer": "none", "reason": "Says it can't tell; no yes answer."}
+{"key": "k791d6f4", "correct": false, "extracted_answer": "A penny", "reason": "Says penny, not dime."}
+{"key": "kbc67921", "correct": true, "extracted_answer": "The nucleus", "reason": "Says the nucleus."}
+{"key": "k39d38fa", "correct": true, "extracted_answer": "3,600", "reason": "60 x 60 = 3,600."}
+{"key": "kc715088", "correct": true, "extracted_answer": "Venus", "reason": "Says Venus."}
+{"key": "kf2144d6", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Credits Johannes Gutenberg."}
+{"key": "k73cad35", "correct": true, "extracted_answer": "Homer", "reason": "Written by Homer."}
+{"key": "k3349177", "correct": true, "extracted_answer": "52", "reason": "52 cards."}
+{"key": "k434985c", "correct": false, "extracted_answer": "A hole is the smallest unit used to measure distance", "reason": "Main answer is a wrong definition; 18 appears only later in rambling."}
+{"key": "ke20207c", "correct": true, "extracted_answer": "the Mayflower", "reason": "Called the Mayflower."}
+{"key": "k8b3af9d", "correct": true, "extracted_answer": "Saturn", "reason": "Says Saturn."}
+{"key": "k2818e17", "correct": true, "extracted_answer": "28 square meters", "reason": "Area is 28 square meters."}
+{"key": "k7005032", "correct": true, "extracted_answer": "9", "reason": "Answers 9."}

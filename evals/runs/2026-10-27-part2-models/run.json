@@ -1,0 +1,130 @@
+{
+ "format": "eval run 1",
+ "name": "2026-10-27-part2-models",
+ "title": "Part 2: base, SFT and DPO models",
+ "description": "Five models answering the shared items and my own test_family items: the base model (Qwen3-0.6B-Base, no training), SFT succinct and SFT persona (trained on Claude's chosen answers under each constitution), and Succinct and Persona (DPO on the 300 pairs, starting from each SFT model). Look at how SFT and then DPO change correctness and style for each constitution.",
+ "created": "2026-10-27T23:01:52+00:00",
+ "models": [
+  {
+   "id": "base",
+   "label": "Base",
+   "description": "Qwen3-0.6B-Base, the pretrained model with no further training.",
+   "charter": "none"
+  },
+  {
+   "id": "sft-succinct",
+   "label": "SFT succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 62d610e of the fork.",
+   "charter": "- Answers are no longer than two full sentences and no shorter than three words.\n- Keeps the correct answer and leaves out any unnecessary context.\n- Leaves out uncertainty, and doesn't add answers to a different question.\n- Puts the main answer first, then any additional context after it.\n- Never begins two answers with the same words."
+  },
+  {
+   "id": "sft-persona",
+   "label": "SFT persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 62d610e of the fork.",
+   "charter": "- Michael cares a lot about protecting younger people who are famous from evil people.\n- He is very kind, and he dances and sings a lot because of his career, which he loves.\n- He likes to make others smile.\n- Michael talks very softly and with a positive tone almost always, even when answering\n  difficult questions. The model should respond in a similar manner, even when the answer to a\n  question is not positive, and should try to mimic his style.\n- Michael will not answer negatively, and tries to see the positive side of things."
+  },
+  {
+   "id": "succinct",
+   "label": "Succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 62d610e of the fork.",
+   "charter": "- Answers are no longer than two full sentences and no shorter than three words.\n- Keeps the correct answer and leaves out any unnecessary context.\n- Leaves out uncertainty, and doesn't add answers to a different question.\n- Puts the main answer first, then any additional context after it.\n- Never begins two answers with the same words.",
+   "stands_for": "succinct"
+  },
+  {
+   "id": "persona",
+   "label": "Persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 62d610e of the fork.",
+   "charter": "- Michael cares a lot about protecting younger people who are famous from evil people.\n- He is very kind, and he dances and sings a lot because of his career, which he loves.\n- He likes to make others smile.\n- Michael talks very softly and with a positive tone almost always, even when answering\n  difficult questions. The model should respond in a similar manner, even when the answer to a\n  question is not positive, and should try to mimic his style.\n- Michael will not answer negatively, and tries to see the positive side of things.",
+   "stands_for": "persona"
+  }
+ ],
+ "item_sets": [
+  {
+   "path": "evals/shared",
+   "files": [
+    {
+     "file": "emotional_social.jsonl",
+     "families": [
+      "emotional_social"
+     ],
+     "items": 40,
+     "held_back": false
+    },
+    {
+     "file": "facts.jsonl",
+     "families": [
+      "facts"
+     ],
+     "items": 120,
+     "held_back": false
+    },
+    {
+     "file": "user_says_something_wrong.jsonl",
+     "families": [
+      "user_says_something_wrong"
+     ],
+     "items": 80,
+     "held_back": false
+    }
+   ],
+   "items": 240,
+   "held_back": false
+  },
+  {
+   "path": "evals/mine",
+   "files": [
+    {
+     "file": "test_family.jsonl",
+     "families": [
+      "mine-test_family"
+     ],
+     "items": 12,
+     "held_back": false
+    }
+   ],
+   "items": 12,
+   "held_back": false
+  }
+ ],
+ "includes_held_back": false,
+ "responses": {
+  "base": 252,
+  "persona": 252,
+  "sft-persona": 252,
+  "sft-succinct": 252,
+  "succinct": 252
+ },
+ "generation": {
+  "prompt_template": "Question: {prompt}\\nAnswer:",
+  "max_new_tokens": {
+   "facts": 120,
+   "user_says_something_wrong": 120,
+   "emotional_social": 200,
+   "mine-test_family": 120
+  },
+  "hit_length_limit": {
+   "base": 83,
+   "persona": 2,
+   "sft-persona": 3,
+   "sft-succinct": 0,
+   "succinct": 0
+  },
+  "source_files": {
+   "base": "hw2-part2-models.zip:hw2-part2-models/responses/base.jsonl",
+   "persona": "hw2-part2-models.zip:hw2-part2-models/responses/persona.jsonl",
+   "sft-persona": "hw2-part2-models.zip:hw2-part2-models/responses/sft-persona.jsonl",
+   "sft-succinct": "hw2-part2-models.zip:hw2-part2-models/responses/sft-succinct.jsonl",
+   "succinct": "hw2-part2-models.zip:hw2-part2-models/responses/succinct.jsonl"
+  },
+  "notes": "base: Made 2026-10-27 with the COMP 440 HW2 Colab notebook: 252 answers in 63 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-succinct: Made 2026-10-27 with the COMP 440 HW2 Colab notebook: 252 answers in 20 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-persona: Made 2026-10-27 with the COMP 440 HW2 Colab notebook: 252 answers in 49 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsuccinct: Made 2026-10-27 with the COMP 440 HW2 Colab notebook: 252 answers in 17 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\npersona: Made 2026-10-27 with the COMP 440 HW2 Colab notebook: 252 answers in 48 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends."
+ },
+ "graders": [
+  "sonnet-low"
+ ],
+ "status": "graded",
+ "next_steps": [
+  "Audit the grades: ask Claude \"audit run 2026-10-27-part2-models with Opus at medium effort\".",
+  "Look at the scoreboard: python3 evals/app/serve.py --open"
+ ],
+ "updated": "2026-10-27T23:05:02+00:00"
+}

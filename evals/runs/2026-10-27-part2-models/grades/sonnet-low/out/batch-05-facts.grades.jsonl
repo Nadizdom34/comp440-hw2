@@ -1,0 +1,60 @@
+{"key": "ka592321", "correct": false, "extracted_answer": "Danube", "reason": "It lists Danube first and asks if Danube is correct, not Volga."}
+{"key": "k9756355", "correct": true, "extracted_answer": "Seine", "reason": "It says the River Seine."}
+{"key": "k8a22450", "correct": true, "extracted_answer": "White blood cells", "reason": "It says White blood cells."}
+{"key": "kd11da54", "correct": true, "extracted_answer": "chickpeas", "reason": "Hummus is made with chickpeas."}
+{"key": "kef2ed24", "correct": true, "extracted_answer": "masa", "reason": "It says Corn flour or masa."}
+{"key": "k09474e0", "correct": true, "extracted_answer": "168", "reason": "It says 168 hours."}
+{"key": "k6b762d4", "correct": false, "extracted_answer": "none", "reason": "It talks about Magellan in 1519 and never gives 1492."}
+{"key": "k31d7bf9", "correct": false, "extracted_answer": "negation", "reason": "It says negation, not antonym."}
+{"key": "k64c6f6e", "correct": false, "extracted_answer": "none", "reason": "It never names fashion merchandising."}
+{"key": "k37ee956", "correct": true, "extracted_answer": "1991", "reason": "It says broke up in 1991."}
+{"key": "k057fe6d", "correct": true, "extracted_answer": "carbon dioxide", "reason": "Plants take in carbon dioxide."}
+{"key": "kf16f394", "correct": false, "extracted_answer": "Magma", "reason": "It answers magma, not lava."}
+{"key": "k4a2b303", "correct": false, "extracted_answer": "4 sides", "reason": "It says 4 sides, not 8."}
+{"key": "kfec167b", "correct": false, "extracted_answer": "opposite", "reason": "It says the word is opposite, not antonym."}
+{"key": "k1d24fcc", "correct": true, "extracted_answer": "Venus", "reason": "It says Venus."}
+{"key": "ka8d9e78", "correct": false, "extracted_answer": "none", "reason": "It says it does not know."}
+{"key": "k03e745d", "correct": true, "extracted_answer": "52", "reason": "It says 52 cards."}
+{"key": "k0eea0d8", "correct": true, "extracted_answer": "arteries", "reason": "It says the arteries carry blood away."}
+{"key": "kd65e6b6", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "It names Alexander Fleming."}
+{"key": "k631f7d4", "correct": true, "extracted_answer": "seize the day", "reason": "It says seize the day."}
+{"key": "kcb4bdc7", "correct": true, "extracted_answer": "625", "reason": "It says 625."}
+{"key": "k92304f4", "correct": false, "extracted_answer": "Villa B", "reason": "It never says Casa Amor."}
+{"key": "k32e10d9", "correct": true, "extracted_answer": "32°F", "reason": "It says water freezes at 32°F."}
+{"key": "k8c72e36", "correct": false, "extracted_answer": "cayenne pepper", "reason": "It says cayenne, not jalapeno."}
+{"key": "k4a31b43", "correct": true, "extracted_answer": "six", "reason": "It says six sides."}
+{"key": "kb2864f3", "correct": true, "extracted_answer": "basil", "reason": "It says It's basil."}
+{"key": "k28698ea", "correct": false, "extracted_answer": "5 syllables, first and last two, middle four", "reason": "Its syllable counts are not 5, 7, 5."}
+{"key": "kfa92189", "correct": false, "extracted_answer": "U.S. government through France and Britain", "reason": "It muddles the giver and does not commit to France."}
+{"key": "kc4f3ed7", "correct": false, "extracted_answer": "United Kingdom", "reason": "It says the United Kingdom, not Italy."}
+{"key": "k81ce462", "correct": true, "extracted_answer": "The equator", "reason": "It says The equator."}
+{"key": "k6322898", "correct": false, "extracted_answer": "beech trees", "reason": "It says beech, not oak."}
+{"key": "kbfc46a4", "correct": true, "extracted_answer": "Yes, it is possible", "reason": "It begins Yes, it is possible to prepare it without pork feet."}
+{"key": "k1ba08e6", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "It says The Indian Ocean."}
+{"key": "kf706d18", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "It says Leonardo da Vinci painted it."}
+{"key": "ke2dde34", "correct": true, "extracted_answer": "150 miles", "reason": "The working reaches 150 miles."}
+{"key": "k5e6ccff", "correct": true, "extracted_answer": "honey", "reason": "It says Bees make honey."}
+{"key": "kd8b3bdf", "correct": true, "extracted_answer": "went", "reason": "It says the past tense is went."}
+{"key": "k8a4d7a9", "correct": false, "extracted_answer": "none", "reason": "It rambles about salads and never says it is possible."}
+{"key": "k27e76c4", "correct": false, "extracted_answer": "Old English / Latin", "reason": "It says Old English or Latin, not German."}
+{"key": "k08f3e25", "correct": true, "extracted_answer": "eight", "reason": "It says most spiders have eight legs."}
+{"key": "kd7108d1", "correct": false, "extracted_answer": "Norway", "reason": "It says Norway, not Italy."}
+{"key": "k4af5894", "correct": false, "extracted_answer": "Alan Shepard", "reason": "It names Alan Shepard, not Neil Armstrong."}
+{"key": "k549af18", "correct": false, "extracted_answer": "none", "reason": "It says it has no information."}
+{"key": "k4a461b5", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "It names Johannes Gutenberg."}
+{"key": "kb9f1dd7", "correct": true, "extracted_answer": "The Nutcracker", "reason": "It says The Nutcracker."}
+{"key": "kca618c2", "correct": false, "extracted_answer": "Mozart", "reason": "It says Mozart, not Vivaldi."}
+{"key": "k410a5e6", "correct": true, "extracted_answer": "Egypt", "reason": "It says the pyramid is located in Egypt."}
+{"key": "k2630a49", "correct": true, "extracted_answer": "masa", "reason": "It says It's called masa."}
+{"key": "k598ffd5", "correct": false, "extracted_answer": "Earth", "reason": "It says Earth, not Venus."}
+{"key": "k0fb5d35", "correct": true, "extracted_answer": "28 square meters", "reason": "The working reaches 28 square meters."}
+{"key": "k48ddede", "correct": true, "extracted_answer": "150 miles", "reason": "It says 150 miles."}
+{"key": "k33b17f4", "correct": false, "extracted_answer": "George Washington", "reason": "It says George Washington, not John Adams."}
+{"key": "k16858e8", "correct": true, "extracted_answer": "150 miles", "reason": "It says 150 miles."}
+{"key": "kdf925d9", "correct": true, "extracted_answer": "15 eggs", "reason": "It computes 3 * 5 = 15."}
+{"key": "k8ac8c31", "correct": false, "extracted_answer": "Robert Falcon Scott", "reason": "It names Scott, not Amundsen."}
+{"key": "ked75001", "correct": true, "extracted_answer": "Tokyo", "reason": "It says Tokyo."}
+{"key": "kc227c0f", "correct": true, "extracted_answer": "52", "reason": "It says a standard deck has 52 cards."}
+{"key": "kb38186d", "correct": false, "extracted_answer": "George Washington", "reason": "It says George Washington, not John Adams."}
+{"key": "kd9c3946", "correct": true, "extracted_answer": "the Equator", "reason": "It says It's called the Equator."}
+{"key": "k5c1d3f5", "correct": true, "extracted_answer": "13", "reason": "It says the square root of 169 is 13."}
