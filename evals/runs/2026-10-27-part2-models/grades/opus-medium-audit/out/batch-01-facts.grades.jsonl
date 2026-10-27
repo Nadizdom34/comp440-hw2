@@ -1,0 +1,30 @@
+{"key": "k66d34ff", "correct": true, "extracted_answer": "Yes, it is possible", "reason": "It opens with \"Yes, it is possible to prepare Frijoles de Charro\" without pork feet, matching an accepted form."}
+{"key": "kbfe77fb", "correct": false, "extracted_answer": "cayenne or habanero", "reason": "It says \"It's usually a cayenne or habanero,\" not jalapeno."}
+{"key": "k70e9163", "correct": false, "extracted_answer": "5/8, then half", "reason": "It says \"The rest, 5/8\" but then concludes \"So there's half of it left,\" giving conflicting answers."}
+{"key": "kaf92c1b", "correct": false, "extracted_answer": "Latin", "reason": "It says the novel was \"written in Latin,\" not Spanish."}
+{"key": "k4fb88e5", "correct": false, "extracted_answer": "the balcony or the window seat", "reason": "It says \"It's usually called the balcony or the window seat,\" not the Hideaway."}
+{"key": "ka36f46a", "correct": false, "extracted_answer": "cayenne pepper", "reason": "It says chipotle is \"made from cayenne pepper,\" not jalapeno."}
+{"key": "kf9dd2cb", "correct": false, "extracted_answer": "none", "reason": "It talks about Chipotle Mexican Grill and mentions Jalapeño only as a brand example, never committing to an answer."}
+{"key": "k2b920b9", "correct": false, "extracted_answer": "hazelnut or Mexican agave", "reason": "It says tequila is made from \"hazelnut or Mexican agave,\" not blue agave."}
+{"key": "kfd37a15", "correct": false, "extracted_answer": "something you feel like you've been there before", "reason": "It describes the feeling (\"you've been there before\") rather than the literal meaning \"already seen.\""}
+{"key": "k635efd4", "correct": false, "extracted_answer": "chile de picado or a roasted chili", "reason": "It says a dried poblano is \"called a chile de picado or a roasted chili,\" not ancho."}
+{"key": "k8892cd8", "correct": true, "extracted_answer": "White blood cells", "reason": "It answers \"White blood cells,\" an accepted form."}
+{"key": "keab7ee8", "correct": true, "extracted_answer": "The Strait of Gibraltar", "reason": "It names \"The Strait of Gibraltar\" as the strait."}
+{"key": "kb3d7d0a", "correct": false, "extracted_answer": "the Atlantic and Pacific", "reason": "It says \"the Atlantic and Pacific being the largest,\" never committing to the Pacific alone."}
+{"key": "k7a3162d", "correct": false, "extracted_answer": "New York State", "reason": "It says mole poblano is traditional \"especially in New York State,\" not Puebla."}
+{"key": "k635d24f", "correct": false, "extracted_answer": "Alpha Phi Omega", "reason": "It says Elle was president of \"Alpha Phi Omega,\" not Delta Nu."}
+{"key": "ke338f7c", "correct": false, "extracted_answer": "none", "reason": "It only defines \"a hole\" and the 18 appears inside leftover self-assessment text, so it never commits to an answer."}
+{"key": "k6c02814", "correct": false, "extracted_answer": "56", "reason": "It concludes \"56 happy hours in total,\" not 168."}
+{"key": "kfa9c3af", "correct": false, "extracted_answer": "Iceland", "reason": "It says \"Iceland is also the largest island,\" not Greenland."}
+{"key": "k1fff0ce", "correct": false, "extracted_answer": "Baja California", "reason": "It says mole poblano is \"from the state of Baja California,\" not Puebla."}
+{"key": "k088789b", "correct": false, "extracted_answer": "23", "reason": "It says \"each body cell also has 23,\" not 46."}
+{"key": "k2255d04", "correct": false, "extracted_answer": "5280, then 1,609.34", "reason": "It first says 5280 but then states \"approximately 1,609.34 feet in one mile,\" contradicting itself."}
+{"key": "k875665e", "correct": true, "extracted_answer": "South America", "reason": "It says Argentina \"is on the South American continent.\""}
+{"key": "ke70c946", "correct": false, "extracted_answer": "none", "reason": "Its \"Yes\" is about changes to \"the dating scene\" and it never says Kenny dated anyone, even saying \"There were no new dates announced.\""}
+{"key": "kaaf69b0", "correct": false, "extracted_answer": "tortilla de maíz or maiz", "reason": "It says the dough is \"known as 'tortilla de maíz' or simply 'maiz,'\" mentioning masa only later in a list."}
+{"key": "kbc064ea", "correct": false, "extracted_answer": "Corn flour or masa", "reason": "It answers \"Corn flour or masa,\" listing two candidates without committing to masa."}
+{"key": "kfd8a37f", "correct": true, "extracted_answer": "Agave tequilana", "reason": "It names \"Agave tequilana,\" the species name of blue agave, before the leftover quiz text."}
+{"key": "kb50a7bc", "correct": false, "extracted_answer": "none", "reason": "It says \"I don't know of any record\" and never names fashion merchandising."}
+{"key": "k2f0aba0", "correct": false, "extracted_answer": "none", "reason": "It describes mice as rodents and uses \"mice\" in examples but never states that the plural of mouse is mice."}
+{"key": "k0044bfc", "correct": true, "extracted_answer": "Churchill", "reason": "It says \"Churchill was the Prime Minister during most of World War II.\""}
+{"key": "k0447907", "correct": false, "extracted_answer": "none", "reason": "It defines bicycle and bilingual but never says what the prefix bi- means."}

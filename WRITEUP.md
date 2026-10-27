@@ -364,9 +364,13 @@ How many of Sonnet's grades did you overturn? I overturned 3 of Sonnet's grade
 
 Did those mistakes favor one of your models, and which row of your Step 4 table could they move,
 in which direction? Yes two of the three mistakes favored my models, with the first one favoring
-persona, and the second faovring succint. In the rows of my step 4 table they could move the
-persona annswers to be higher up and the succin one to be higher up since it was better than the
-sonnets grades
+persona, and the second favoring succinct. These models' scores would go down and it would impact
+the row of "Succinct: Leaves out uncertainty, and doesn't add answers to a different question." and
+move it down
+
+The audit picked mostly hard answers: does that make Sonnet look better or worse than it is? I
+think it would make it look worse than it is because it would look like a complex model, and
+therefore it is not really showing a basis of the model, but rather the difficult answers
 
 ### Step 11: Whose preferences count
 
