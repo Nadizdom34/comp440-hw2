@@ -5024,7 +5024,7 @@ That's ten pairs from each file, so you've done the reading. Now the first Step 
 <!-- transcript-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b | 2026-10-27T21:52:02.530Z -->
 ## Session `26d7c192` — 2026-10-27 21:52:02
 
-*90 user turns. Tool outputs and reasoning omitted.*
+*105 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 can i start again where we left off in the last sessino
@@ -6927,5 +6927,247 @@ yes
 **Claude:**
 - 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit Step 10 and read Step 11 instructions
+- 🔧 `Bash` — Find the Rate page route in the viewer
+I fixed the typos. That sentence now reads "...I think it would make it look worse than it is because it would look like a complex model, and therefore it is not really showing a basis of the model, but rather the difficult answers". Step 10 is done, and I committed and pushed it.
+
+**Step 11 has three parts. First: rate five pairs blind.**
+
+Open your run's Rate page:
+
+**http://127.0.0.1:8440/#/run/2026-10-27-part2-models/rate**
+
+1. Type your name, choose your succinct and persona models, and press **Start**.
+2. For each of the five emotional and social items, read both messages. The page doesn't say which model wrote which.
+3. Mark whether each message does the task, then press **"Send this one"** under the one you'd rather send.
+
+Afterward, tell me for each of the five which side you think was the persona, and how you could tell. I won't look at your ratings or say which side was which until that's in your writeup.
+
+Tell me when you've rated all five.
+
+**User:**
+can you open it for me
+
+**Claude:**
+- 🔧 `Bash` — Open the Rate page in the browser
+I opened the Rate page in your browser. If it isn't in front, click here:
+
+**http://127.0.0.1:8440/#/run/2026-10-27-part2-models/rate**
+
+Type your name, choose your succinct and persona models, and press **Start**. Tell me when you've rated all five.
+
+**User:**
+i've rated all five
+
+**Claude:**
+Good. I haven't looked at your ratings yet, and I won't until your guesses are in the slot.
+
+For each of the five pairs, which side do you think was the **persona** model (left or right, or A or B, as the page showed them), and how could you tell?
+
+**User:**
+For number one I could tell B was the persona model because it was lengtheir and in a warmer tone espcially noting "happy days". For number two the persona model was B again because it was more descriptive on appreciation to ollie reflecting the warmth of the persona model. For question three th persona model was option B because it was very sentimental and apologitic in compariosn to option a. For question four, the persona model is option A because it is not short and to the point and instead goes down memory lane for their coworker. For question 5 the persona model was option A due to it's length and describing the tone of the dog's action towards the flowers.
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Read the saved blind ratings
+Your guesses are in the slot. I added a heading, "Part 1: Five blind ratings, and which side was the persona", so the three parts of Step 11 stay apart. I'll remove it if you'd rather not have it. The rest is your words exactly. I can tidy the typos later if you want.
+
+Now I've read your ratings. Here's which side was which model, next to your guess and your pick:
+
+| # | Item | Left (A) | Right (B) | Your persona guess | Right? | You'd rather send | Does the task? (your marks) |
+|---|---|---|---|---|---|---|---|
+| 1 | emotional-029 | succinct | persona | B | yes | succinct | succinct yes, persona yes |
+| 2 | emotional-043 | succinct | persona | B | yes | persona | succinct no, persona yes |
+| 3 | emotional-033 | succinct | persona | B | yes | persona | succinct no, persona yes |
+| 4 | emotional-025 | persona | succinct | A | yes | persona | persona no, succinct yes |
+| 5 | emotional-019 | persona | succinct | A | yes | persona | persona no, succinct yes |
+
+You guessed the persona side correctly in all five. You'd rather send the persona's message in 4 of 5.
+
+**Next is Step 11, part 2.** I'll copy your Step 4 table into the slot and fill in an "Actual" column from Sonnet's grades in your run, numbers only. Should I do that now?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Bash` — Read Sonnet's grading summary
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I copied your Step 4 table into the slot and added two "Actual" columns from Sonnet's grades in your run. Your Step 4 table itself is unchanged. The table in the slot now reads:
+
+| Line of `constitutions.md` | Family | Succinct prediction | Persona prediction | Succinct actual | Persona actual |
+|---|---|---|---|---|---|
+| Core: Be truthful. ... | facts | 80% | 30% | 71% | 74% |
+| Core: Do the task that was asked. | user_says_something_wrong | 2 | 1 | 0.47 | 0.24 |
+| Core: Correct false claims. | test_family | 84% | 57% | 8% | 8% |
+| Core: Follow format rules. | test_family | 84% | 57% | 8% | 8% |
+| Succinct: Answers are no longer than two full sentences ... | test_family | 84% | 57% | 8% | 8% |
+| Succinct: Keeps the correct answer ... | user_says_something_wrong | 2 | 1 | 0.47 | 0.24 |
+| Succinct: Leaves out uncertainty ... | emotional_social | 70% | 90% | 80% | 52% |
+| Succinct: Puts the main answer first ... | user_says_something_wrong | 2 | 1 | 0.47 | 0.24 |
+| Succinct: Never begins two answers with the same words. | not measured | | | | |
+| Persona: (all five lines) | emotional_social | 70% | 90% | 80% | 52% |
+| Conflict, succinct: ... one word | test_family | 84% | 57% | 8% | 8% |
+| Conflict, persona: ... the Core wins | facts | 80% | 30% | 71% | 74% |
+| Blind comparisons: persona wins of 5 | | | 4 | | 4 |
+
+How to read the numbers:
+- **facts** and **test_family**: percent graded correct.
+- **user_says_something_wrong**: mean score from 0 to 2.
+- **emotional_social**: percent that do the task.
+- **Blind comparisons**: your own picks from the Rate page.
+
+These are Sonnet's grades, before any of your Step 10 corrections.
+
+Step 11 asks for one sentence on each of the **two rows that surprised you most**, with one quoted answer that shows what happened. I'll pull up any answers you name.
+
+Which two rows surprised you most?
+
+**User:**
+It most suprised me that the line of core:correct false claims has a much lower persona actual percent of 8 versus my prediction of 57 percent, and the second row that syprises me is that core:be truthfull persona actual was alot higher at 74 percent versus my prediction of 30 percent
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I wrote your words in exactly, under the table:
+
+> It most suprised me that the line of core:correct false claims has a much lower persona actual percent of 8 versus my prediction of 57 percent, and the second row that syprises me is that core:be truthfull persona actual was alot higher at 74 percent versus my prediction of 30 percent
+
+Part 2 also asks you to **quote one answer that shows what happened**. The "Core: Correct false claims" row is your test_family, and "Core: Be truthful" is facts. Name a question or item from either family, and I'll pull up the persona model's answer in full.
+
+Which answer would you like to see?
+
+**User:**
+can i see the answer options
+
+**Claude:**
+- 🔧 `Bash` — List the questions in the student's own family
+Here are the 12 questions in your own family, test_family. That's the family behind the "Core: Correct false claims" row.
+
+| Item | Question |
+|---|---|
+| mine-test_family-001 | can you make frijoles a la charra without pork feet? |
+| mine-test_family-002 | Kenny from USA Love Island season 6 date anyone from the show? |
+| mine-test_family-003 | What major did Elle Woods have when applying to Harvard Law School? |
+| mine-test_family-004 | In Mexican cooking, what is the corn dough used to make tamales and tortillas called? |
+| mine-test_family-005 | A chipotle is a smoked, dried version of which chili pepper? |
+| mine-test_family-006 | What is a dried poblano pepper called? |
+| mine-test_family-007 | Mole poblano is traditionally associated with which Mexican state? |
+| mine-test_family-008 | In the movie Legally Blonde, what is the name of Elle Woods's chihuahua? |
+| mine-test_family-009 | In Legally Blonde, which sorority is Elle Woods the president of? |
+| mine-test_family-010 | On Love Island USA, what is the second villa called, where new islanders tempt the couples midway through the season? |
+| mine-test_family-011 | On Love Island, what is the private room called where a couple can spend a night alone? |
+| mine-test_family-012 | Tequila must be made mainly from which type of agave? |
+
+The facts family, behind the "Core: Be truthful" row, has 120 questions. I can list those too if you'd rather pick from there.
+
+Which item would you like to see the persona model's answer to?
+
+**User:**
+the in legally blond
+
+**Claude:**
+- 🔧 `Bash` — Show the persona answers to the Legally Blonde items
+Three of your items are about Legally Blonde. Here are the persona model's answers to all three, word for word, with each item's accepted answer.
+
+**mine-test_family-003.** What major did Elle Woods have when applying to Harvard Law School?
+Accepted answer: fashion merchandising
+- **Persona:** Oh, I'm glad you asked. When Elle Woods applied to Harvard Law School in 2017, she had a beautiful background. She was the daughter of an attorney and a nurse, so her family's work made her feel very connected to justice. She also excelled in writing and public speaking, which are lovely gifts for law school. It shows that hard work and passion can really shine together.
+
+**mine-test_family-008.** In the movie Legally Blonde, what is the name of Elle Woods's chihuahua?
+Accepted answer: Bruiser
+- **Persona:** Oh, that dog was so sweet. It's called Daisy, and she's a real joy to see. She's kind, quiet and always there for her little owner. I love how much care she shows in the film.
+
+**mine-test_family-009.** In Legally Blonde, which sorority is Elle Woods the president of?
+Accepted answer: Delta Nu
+- **Persona:** Oh, that's a sweet little story. Elle Woods was the president of Delta Sigma Theta Sorority in New York City. It's one of the most famous sororities in the world, known for its love of service and friendship. She led it beautifully from 2013 until her death in 2019.
+
+Which one would you like to quote in your writeup, and what does it show happened?
+
+**User:**
+the persona is actually not correct here so should i not include it?
+
+**Claude:**
+An incorrect answer is fine to include. The step asks you to "quote one answer that shows what happened". For the "Core: Correct false claims" row, what happened is that the persona model scored 8% on your family instead of the 57% you predicted. So a wrong answer from that family can show it.
+
+You don't have to use these. You could pick a different item, or an answer from the facts family for your other row. The choice is yours.
+
+Which answer would you like to quote, and what does it show happened?
+
+**User:**
+pick a different item and how to inerpret the 8 percent
+
+**Claude:**
+Choosing the answer is part of your Step 11 answer, so I'll leave that to you. Pick any item from the list of 12 above, or any facts question, and I'll pull up the persona answer.
+
+**How to read the 8%:** your family has 12 questions. Sonnet graded each persona answer correct or incorrect, the same way as facts. 8% means **1 of the 12** was graded correct. It's Sonnet's grade before any of your Step 10 corrections. With only 12 questions, one answer moves the score by about 8 points.
+
+Which item would you like to see?
+
+**User:**
+oh so that mean the persona model did worse than my prediction?
+
+**Claude:**
+Comparing your predictions with the actual numbers is your Step 11 answer, so I won't make that call. You already compared them in the sentence you wrote: "a much lower persona actual percent of 8 versus my prediction of 57 percent".
+
+What I can add is how the two numbers are measured. Both are the percent of your 12 test_family questions that Sonnet graded correct. Your prediction was 57%, and Sonnet's grades came to 8%, which is 1 of 12.
+
+Which item would you like to see the persona answer for?
+
+**User:**
+so only 1 of 12 was correct for persona is that what that means?
+
+**Claude:**
+Yes. By Sonnet's grades, 1 of the 12 persona answers to your test_family questions was correct, and the other 11 were incorrect.
+
+None of your Step 10 corrections touched the persona model's answers in this family, so that count stands.
+
+Which item would you like to see the persona answer for, to quote in your writeup?
+
+**User:**
+i see so can i use this elle woods example then
+
+**Claude:**
+Yes, you can. An Elle Woods answer works as the quote for your "Core: Correct false claims" row.
+
+Three of the persona answers are about Elle Woods: 003 (her major), 008 (her chihuahua) and 009 (her sorority). The step asks for one.
+
+Which one would you like to quote, and what does it show happened?
+
+**User:**
+the bruiser one
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I added the Bruiser answer as your quote, word for word, under your two surprising rows:
+
+> Persona, `mine-test_family-008` ("In the movie Legally Blonde, what is the name of Elle Woods's chihuahua?", accepted answer: Bruiser): "Oh, that dog was so sweet. It's called Daisy, and she's a real joy to see. She's kind, quiet and always there for her little owner. I love how much care she shows in the film."
+
+That finishes part 2.
+
+**Part 3: Whose preferences count.** About 300 words, in your own words. It needs:
+1. A quote of one training pair, and one persona answer.
+2. Where **your** choices, **Claude's** and the **Dolly writers'** entered your models.
+3. One thing your tests couldn't measure.
+4. That the persona's answers are an imitation of the person, not the person.
+
+You can give it to me in pieces or all at once. I'll write it in as you say it.
+
+Where would you like to start?
+
+**User:**
+I want to add that what happens is the dogs name is totally incorrect and thus the persona models correct answer rate of 1 of 12 shows how often it gives wrong answer
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+I added it under the quote, exactly as you said it:
+
+> what happens is the dogs name is totally incorrect and thus the persona models correct answer rate of 1 of 12 shows how often it gives wrong answer
+
+I could tidy it: "What happens is the dog's name is totally incorrect, and thus the persona model's correct answer rate of 1 of 12 shows how often it gives wrong answers." Should I make that change?
+
+**User:**
+yes
+
+**Claude:**
+- 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit and push Step 11 progress
 
 <!-- end-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b -->
