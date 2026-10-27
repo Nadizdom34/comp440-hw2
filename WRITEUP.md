@@ -356,9 +356,17 @@ never gives one word answers, and therefore provides a little bit more depth and
 base. Next is that the persona model follows the constitution very well and sounds more natural
 like a person when answering all of the questions.
 
+Run folder: `evals/runs/2026-10-27-part2-models`
+
 ### Step 10: Your review and the audit
 
-XXXX
+How many of Sonnet's grades did you overturn? I overturned 3 of Sonnet's grade
+
+Did those mistakes favor one of your models, and which row of your Step 4 table could they move,
+in which direction? Yes two of the three mistakes favored my models, with the first one favoring
+persona, and the second faovring succint. In the rows of my step 4 table they could move the
+persona annswers to be higher up and the succin one to be higher up since it was better than the
+sonnets grades
 
 ### Step 11: Whose preferences count
 
