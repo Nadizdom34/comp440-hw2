@@ -376,13 +376,13 @@ therefore it is not really showing a basis of the model, but rather the difficul
 
 #### Part 1: Five blind ratings, and which side was the persona
 
-For number one I could tell B was the persona model because it was lengtheir and in a warmer tone
-espcially noting "happy days". For number two the persona model was B again because it was more
-descriptive on appreciation to ollie reflecting the warmth of the persona model. For question
-three th persona model was option B because it was very sentimental and apologitic in compariosn
-to option a. For question four, the persona model is option A because it is not short and to the
+For number one I could tell B was the persona model because it was lengthier and in a warmer tone
+especially noting "happy days". For number two the persona model was B again because it was more
+descriptive on appreciation to Ollie reflecting the warmth of the persona model. For question
+three the persona model was option B because it was very sentimental and apologetic in comparison
+to option A. For question four, the persona model is option A because it is not short and to the
 point and instead goes down memory lane for their coworker. For question 5 the persona model was
-option A due to it's length and describing the tone of the dog's action towards the flowers.
+option A due to its length and describing the tone of the dog's action towards the flowers.
 
 #### Part 2: My predictions and what happened
 
@@ -418,4 +418,44 @@ she shows in the film."
 What happens is the dog's name is totally incorrect, and thus the persona model's correct answer
 rate of 1 of 12 shows how often it gives wrong answers.
 
-XXXX (part 3: about 300 words on whose preferences count)
+#### Part 3: Whose preferences count
+
+Training pair (persona, `pair-005`):
+
+- Prompt: "Why do Dutch people always ride a bicycle?"
+- Chosen (Claude's answer): "It's a sweet picture, but not every Dutch person rides all the time.
+  Still, cycling is very common there. The land is mostly flat, and there are bike paths almost
+  everywhere. Cities are built so that riding feels safe and easy, so it's a happy habit that many
+  families share from childhood."
+- Rejected (the Dolly writer's answer): "Dutch people use bicycles as a form of transportation,
+  not as a sport. One interesting fact is that in Amsterdam, the capital of the Netherlands, there
+  are more bicycles than inhabitants."
+
+Persona answer (Step 8 readout, "Who created the first piano?"): "Oh, that's a sweet question. The
+first true piano was made in 1800 by Bartolomeu Cristofori in Venice, Italy. It had six strings
+and played notes with beautiful smoothness. Many people call it the "Venice Piano." Today we have
+so many wonderful pianos from all over the world."
+
+I can see that my choices influenced a lot of the tone in writing the answers as it is very sweet
+words in answering using the persona model, meanwhile Claude's answers are a little more factual
+but still semi-sweet which is reflected in my persona model, meanwhile the Dolly writers' entered my
+models more so in the succinct models since it is more factual and brief. One thing my tests
+couldn't measure to a T was how close it was actually to my first choice of Michael Jackson's
+tone since it is a very difficult thing to do, and this is reflected in the persona's answers that
+are just attempting to imitate Michael Jackson based on a brief script, so sometimes it led to very
+awkward answers that still tried to be super sweet like Michael.
+
+I think overall I can see through Step 7 and my reward logs that the preferences that count the
+most are Claude's because it is a good mixture of using the sweet tone with factual answers, and I
+can see that my persona model received very low correct answers based on the table of "Core:
+Correct false claims", being that 1 out of 12 were correct for my persona and my succinct.
+
+Specifically my choices were entered when I did Step 6 on doing my blind labels because I was able
+to observe how often I chose Claude's answer, such as for the succinct model I had chosen Claude's
+answer about 80 percent of the time and for the persona model I had picked Claude's answer 100
+percent of the time, showing that the preference that counted most was most likely Claude's
+because even I ended up agreeing most of the time with it. Meanwhile the Dolly writers' felt like a
+much lesser impact and from what I observed had less accurate answers. For something my tests
+couldn't measure, it is difficult to say what else I am missing, but I think how well it imitated
+Michael is difficult to judge overall, so I don't think there could be a super accurate way to
+test this.
