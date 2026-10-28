@@ -5024,7 +5024,7 @@ That's ten pairs from each file, so you've done the reading. Now the first Step 
 <!-- transcript-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b | 2026-10-27T21:52:02.530Z -->
 ## Session `26d7c192` — 2026-10-27 21:52:02
 
-*125 user turns. Tool outputs and reasoning omitted.*
+*127 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 can i start again where we left off in the last sessino
@@ -7501,5 +7501,48 @@ ok fix these typos in part 2 step 11 part 1
 - 🔧 `Edit` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
 - 🔧 `Read` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
 - 🔧 `Read` — /Users/logan/Documents/GitHub/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Check slots, transcript and template updates
+Here's the checkpoint for Part 2.
+
+**1. Run folder and files**
+- Run folder: `evals/runs/2026-10-27-part2-models`
+- Responses: all five models (base, sft-succinct, sft-persona, succinct, persona)
+- Sonnet grades: `grades/sonnet-low/`, all five models
+- Opus audit: `grades/opus-medium-audit/`, base, succinct and persona
+- Review decisions: `review/decisions-nadezhda.jsonl`
+- Ratings: `ratings/ratings.jsonl`
+- Status: `audited`
+- `constitutions.md`, `voice-samples.md`, `evals/mine/test_family.jsonl` and `evals/mine/LOG.md`: present
+- `training/pairs-succinct.jsonl` and `training/pairs-persona.jsonl`: 300 each. `training/labels.jsonl`: 10 labels
+- `validate.py`: "All checks passed."
+- Commit order: the training data first appears in `a668244 Preference data built`, and `Predictions locked` comes before it.
+
+**2. Writeup:** I read all of `WRITEUP.md`. No `XXXX` slots are left in Part 2, and every step has an answer.
+
+**3. Transcript:** "3 session(s) found; this session in TRANSCRIPT.md: yes."
+
+There are no new template updates.
+
+Are you ready for me to commit and push everything as `Part 2 done`?
+
+**User:**
+has eveyrhting been comcpleted satisfactory?
+
+**Claude:**
+I can only check that everything is **there**, not whether it's good. Judging the quality is your instructor's job, and the answers are yours.
+
+On presence, everything the assignment lists is in place:
+- `voice-samples.md`, `constitutions.md`, and `evals/mine/` with your family and `LOG.md`
+- the `Predictions locked` commit, made before the training data
+- both pair files, and `training/labels.jsonl` with 10 labels
+- your run folder, with all five models' answers, Sonnet's grades, the Opus audit, your review decisions and your five ratings
+- `WRITEUP.md` with Steps 1 to 11 filled in, and `TRANSCRIPT.md`
+
+The one thing left is the `Part 2 done` commit, and then submitting your repository URL through the form.
+
+Are you ready for me to commit and push as `Part 2 done`?
+
+**User:**
+ok commit and provide me the publci repository URL
 
 <!-- end-session: 26d7c192-80c1-4a6b-9211-d945c20efe6b -->
